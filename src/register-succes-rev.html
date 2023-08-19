@@ -1,0 +1,170 @@
+<!-- inject:header:fixed -->
+<!-- endinject -->
+
+<!-- Content-->
+<div class="register-rev">
+    <div class="wrapper">
+        <div class="wrapper-box-register shadow shadow-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-6 content-left">
+                        <!-- SLIDER LOGIN REGISTER -->
+                        <div class="wrapper-content-left slider-login">
+                            <!-- slide-1 -->
+                            <a href="#/" class="active" data-slide-index="0">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-1.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Connect</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Memudahkan kamu untuk
+                                            terhubung dengan
+                                            berbagai peluang dan solusi kebutuhan bisnis.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- slide-2 -->
+                            <a href="#/" data-slide-index="1">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-2.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Collaborate</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Wadah untuk membangun
+                                            networking & berkolaborasi
+                                            demi mewujudkan ide-ide brilian bersama Conectizen lainnya.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- slide-3 -->
+                            <a href="#/" data-slide-index="2">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-3.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Contribute</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Bergabunglah bersama kami
+                                            memajukan bangsa melalui
+                                            ekosistem ini, apakah kamu siap?.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 content-right">
+                        <div class="wrapper-content-right">
+                            <div class="col-12 image-title jcenter">
+                                <img class="image-register-content" src="img/icon/login-regis.png" alt="">
+                            </div>
+                            <h3 class="title-text-register span-color center mt-4">Pendaftaran Berhasil</h3>
+                            <p class="paragraph-text center mt-4">Sebelum memulai perjalananmu. Yuk lengkapi<br> data
+                                diri kamu dengan mengisi kolom di bawah ini.</p>
+                            <div class="form">
+                                <div class="form-control mt-16" id="form-control-1">
+                                    <div class="open-disabled input-label">
+                                        <span class="form-label filled">Nama Lengkap</span>
+                                        <input type="text" id="username" placeholder="Masukkan nama lengkap">
+                                    </div>
+                                    <div class="alert alert-error">
+                                        <span class="material-icons alert-icon">error</span>
+                                        <p class="body-text-xs alert-text">Error Message</p>
+                                    </div>
+                                    <div class="alert alert-caution">
+                                        <span class="material-icons alert-icon">warning</span>
+                                        <p class="body-text-xs alert-text">Coution Message</p>
+                                    </div>
+                                    <div class="alert alert-succes">
+                                        <span class="material-icons alert-icon">check_circle</span>
+                                        <p class="body-text-xs alert-text">Succes Message</p>
+                                    </div>
+                                </div>
+                                <div class="form-control mt-16" id="form-control-6">
+                                    <div class="input-label-second">
+                                        <span class="form-label filled-second">Kode Referral (Jika Ada)</span>
+                                        <input type="text" id="text" placeholder="Masukkan kode referral">
+                                    </div>
+                                    <div class="alert alert-error">
+                                        <span class="material-icons alert-icon">error</span>
+                                        <p class="body-text-xs alert-text">Error Message</p>
+                                    </div>
+                                    <div class="alert alert-caution">
+                                        <span class="material-icons alert-icon">warning</span>
+                                        <p class="body-text-xs alert-text">Coution Message</p>
+                                    </div>
+                                    <div class="alert alert-succes">
+                                        <span class="material-icons alert-icon">check_circle</span>
+                                        <p class="body-text-xs alert-text">Succes Message</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 btn-submit-register mt-32">
+                                    <button id="btnClickMulai"  type="submit" disabled="disabled" class="btn btn-full">Mulai Perjalanan</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Content-->
+<script>
+    $('.slider-login').bxSlider({
+        auto: true,
+        slideWidth: 1216,
+    });
+
+        //===================================
+    //inout 1
+    $('.input-label input').keyup(function () {
+        var empty = false;
+        $('.input-label input').each(function () {
+            if ($(this).val().length == 0) {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('.filled').removeClass('span-color')
+        } else {
+            $('.filled').addClass('span-color')
+        }
+    });
+
+    //inout 2
+    $('.input-label-second input').keyup(function () {
+        var empty = false;
+        $('.input-label-second input').each(function () {
+            if ($(this).val().length == 0) {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('.filled-second').removeClass('span-color')
+        } else {
+            $('.filled-second').addClass('span-color')
+        }
+    });
+
+    // ==================================
+
+
+    // DISABLE BUTTON
+    $(document).ready(function () {
+        $('.open-disabled input').keyup(function () {
+
+            var empty = false;
+            $('.open-disabled input').each(function () {
+                if ($(this).val().length == 0) {
+                    empty = true;
+                }
+            });
+
+            if (empty) {
+                $('.btn-submit-register button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+            } else {
+                $('.btn-submit-register button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+            }
+        });
+    });
+</script>
+<!-- inject:footer -->
+<!-- endinject -->

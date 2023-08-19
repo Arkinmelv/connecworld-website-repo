@@ -1,0 +1,2323 @@
+<!-- inject:header:profile -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo/01. Icon Uniqty 1.png" type="image/png" sizes="16x16">
+    <title>Conecworld</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/material-icons.css" />
+    <link rel="stylesheet" href="css/select2.min.css">
+
+
+    <link rel="stylesheet" href="css/homepage-styles.css">
+    <link rel="stylesheet" href="css/profile-styles.css">
+    <link rel="stylesheet" href="css/login-register-styles.css">
+    <link rel="stylesheet" href="css/cash-point.css">
+
+    <!-- Plugin -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <!-- End CSS -->
+
+    <!-- JS -->
+	<!-- plugin -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tb-modal.js"></script>
+	<script src="js/select2.min.js"></script>
+    <script src="js/bxslider.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<!-- End JS -->
+</head>
+
+<body>
+    <header class="shadow">
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-inner">
+                        <a href="#">
+                            <img src="./img/logo/header-logo.png" alt="image-logo" />
+                        </a>
+                        <div class="btn-navbar" id="navigation">
+                            <div class="navbar-link">
+                                <a class="navbar-link-a" href="/dist/homepage.html">
+                                    <span>Beranda</span>
+                                </a>
+                                <a class="navbar-link-a" href="#">
+                                    <span>Eksplor</span>
+                                </a>
+                                <a class="navbar-link-a" href="#">
+                                    <span>Tentang Kami</span>
+                                </a>
+                                <div class="nav-link-a">
+                                    <a class="navbar-link-a" href="#">
+                                        <span>Produk</span>
+                                    </a>
+                                    <button class="button-navbar" id="btnShowProduct">
+                                        <i class="material-icons">expand_more</i>
+                                    </button>
+                                </div>
+                                <div class="nav-link-prof">
+                                    <div class="image-profile">
+                                        <img src="./img/icon/profile.png" alt="">
+                                    </div>
+                                    <a class="navbar-link-a" href="#">
+                                        <span>Arkin Melvian Dwiansyah</span>
+                                    </a>
+                                    <button class="button-navbar" id="btnShowProfile">
+                                        <i class="material-icons">expand_more</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- DROPDOWN PRODUK -->
+    <div class="dropdown" >
+        <div class="bg-dropdown">
+            <div class="wrapper">
+                <div class="dropdown-show" id="show-dropdown-product">
+                    <div class="dropdown-menu">
+                        <div class="col-3 section-dropdown-product">
+                            <p class="sub-title-text-2 text-title">Produk Conecworld</p>
+                            <p class="body-text-xs text-paragraf">Kami menyediakan beragam produk yang
+                                dapat dijadikan sebagai peluang kamu
+                                dalam proses tumbuh dan berkembang. Nikmati produk
+                                kami untuk membantu kamu meningkatkan kualitas diri.
+                            </p>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon1.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Link
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="quick-bg">
+                                            <p class="text-quick-title">Segera Hadir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Bikin jangkauan relasi kamu jadi
+                                    <br>lebih luas
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon2.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Chance
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Peluang buat raih kesempatan karir
+                                    <br>dan bisnis
+                                    kamu
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon3.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Event
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Cara gampang buat promosi dan dapetin
+                                    info event
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon4.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Insight
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Tempat berbagi info, pengetahuan, dan
+                                    <br>hal
+                                    menarik
+                                    lainnya </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon5.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Quiz
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Ikuti quiz dan kumpulkan ConecPoint
+                                    Sebanyak -
+                                    banyaknya
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon6.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Expert
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Ceritakan permasalahan yang kamu alami
+                                    <br>ke
+                                    ahlinya
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon7.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Project
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Cari solusi buat permasalahan
+                                    bisnismu<br>anti
+                                    ribet
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon8.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Talk
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Tempat diskusi seru bareng Conectizen
+                                    <br> &nbsp;
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon9.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Fund
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Jalan keluar paling aman buat investasi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DROPDOWN PROFILE -->
+    <div class="dropdown">
+        <div class="bg-dropdown">
+            <div class="wrapper">
+                <div class="dropdown-show-profile" id="show-dropdown-profile">
+                    <div class="dropdown-menu">
+                        <div class="col-6 section-dropdown">
+                            <div class="inner-left-content">
+                                <div class="col-12 title-text">
+                                    <img class="dropdown-title" src="img/icon/icons-dropdown-profil.png" alt="">
+                                    <p class="body-text-xl title-text-content">MyDashboard</p>
+                                </div>
+                                <div class="border-dropdown"></div>
+                                <div class="row">
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyConecLtd</p>
+                                            <p class="body-text-xs">Kelola informasi perusahaan kamu di sini</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyChance</p>
+                                            <p class="body-text-xs">Cari mitra bisnis atau karyawan terbaikmu</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyEvent</p>
+                                            <p class="body-text-xs">Promosikan event kamu dengan mudah </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyInsight</p>
+                                            <p class="body-text-xs">Jadilah kretor dengan membuat konten menarik</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyQuiz</p>
+                                            <p class="body-text-xs">Buat survey dan dapatkan responden dengan cepat
+                                            </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyProject</p>
+                                            <p class="body-text-xs">Buat survey dan dapatkan responden dengan cepat
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyExpert</p>
+                                            <p class="body-text-xs">Jadilah konsultan untuk bantu temukan solusi</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyTalk</p>
+                                            <p class="body-text-xs">Mulai diskusi untuk mencari jawaban bersama</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyFund</p>
+                                            <p class="body-text-xs">Cari investor untuk kembangkan bisnismu</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 section-dropdown">
+                            <div class="inner-right-content">
+                                <div class="col-12 title-text">
+                                    <img src="img/icon/profile.png" alt="" class="image-profile">
+                                    <div class="title-section-menu">
+                                        <p class="body-text-sm">Andhika Sastra Gautama</p>
+                                        <span class="material-icons circle">circle</span>
+                                        <p class="body-text-sm span-color">88 200907 22233137</p>
+                                    </div>
+                                    <div class="title-section-menu div-menu">
+                                        <span class="material-icons">account_balance_wallet</span>
+                                        <p class="body-text-xs">Rp. 30.000 ConecCash</p>
+                                        <span class="material-icons">stars</span>
+                                        <p class="body-text-xs">100 ConecPoint</p>
+                                        <span class="material-icons">local_fire_department</span>
+                                        <p class="body-text-xs">16 ConecXP</p>
+                                    </div>
+                                </div>
+                                <div class="border-dropdown">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 section-menu">
+                                        <div class="menu-content-dropdown">
+                                            <span class="material-icons top-image">people</span>
+                                            <p class="body-text-md">Profile Saya</p>
+                                            <span class="material-icons">receipt_long</span>
+                                            <p class="body-text-md">Daftar Transaksi</p>
+                                            <span class="material-icons">redeem</span>
+                                            <p class="body-text-md">Referal</p>
+                                            <span class="material-icons">card_membership</span>
+                                            <p class="body-text-md">Membership</p>
+                                            <span class="material-icons">qr_code_scanner</span>
+                                            <p class="body-text-md">Scanner</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 section-menu">
+                                        <div class="menu-content-dropdown">
+                                            <span class="material-icons top-image">notifications</span>
+                                            <p class="body-text-md">Pemberitahuan</p>
+                                            <span class="material-icons">settings_applications</span>
+                                            <p class="body-text-md">Pengaturan</p>
+                                            <span class="material-icons">power_settings_new</span>
+                                            <p class="body-text-md">Keluar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header-->
+    <!-- End Content-->
+
+<!-- endinject -->
+
+<!-- Content-->
+<section>
+    <div class="profile">
+        <div class="banner">
+            <div class="image-banner">
+                <img src="img/other-image/img-profile-page/Banner Profil.png" alt="img-banner">
+            </div>
+            <div class="profile-edit-banner">
+                <div class="banner-edit">
+                    <a href="#modalProfile-banner" data-toggle="modal" class="material-icons edit-banner">edit</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-profile">
+            <div class="wrapper">
+                <div class="profile-page">
+                    <div class="profile-content">
+                        <div class="profile-left fl">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="content-card-1 shadow shadow-9-profile">
+                                        <div class="img-profile-id">
+                                            <div class="img-profile-content">
+                                                <img src="img/other-image/img-profile-page/Group 1567 (1).png" alt="">
+                                            </div>
+                                            <div class="icon-edit">
+                                                <a href="#modalProfile-infoumum" data-toggle="modal"
+                                                    class="material-icons pen">edit</a>
+                                            </div>
+                                        </div>
+                                        <p class="body-text-lg span-color username-id">@andhikasg</p>
+                                        <p class="body-text-lg username-title-id">Andhika Sastra Gautama</p>
+                                        <p class="body-text-sm username-title-id">UI/UX Designer</p>
+                                        <p class="body-text-md username-title-id">Bojonegoro, Jawa Timur, <br>Indonesia
+                                        </p>
+                                        <div class="born">
+                                            <p class="body-text-md">Laki - Laki</p>
+                                            <i class="material-icons">circle</i>
+                                            <p class="body-text-md">06 Juni 2000</p>
+                                        </div>
+                                        <div class="id">
+                                            <p class="body-text-xl id-title">ID</p>
+                                            <p class="sub-title-text-2 id-number span-color-white" id="sample">88 200907
+                                                22233137</p>
+                                            <a href="#" class="material-icons id-icon span-color-white"
+                                                onclick="CopyToClipboard('sample');return false;">content_copy</a>
+                                        </div>
+                                        <div class="border-profile"></div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">group</i>
+                                            <a href="profile-follower.html" class="body-text-md text-content-bio">200+
+                                                Pengikut</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">person_add</i>
+                                            <a href="profile-following.html" class="body-text-md text-content-bio">200+
+                                                Diikuti</a>
+                                        </div>
+                                        <div class="border-profile"></div>
+                                        <div class="content-bio">
+                                            <i
+                                                class="material-icons span-color icon-content-bio">account_balance_wallet</i>
+                                            <a href="#" class="body-text-md text-content-bio">Rp. 1.000.000 Cash</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">stars</i>
+                                            <a href="#" class="body-text-md text-content-bio">20.000 Point</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <i
+                                                class="material-icons span-color icon-content-bio">local_fire_department</i>
+                                            <a href="#" class="body-text-md text-content-bio">A1 - 200 XP</a>
+                                        </div>
+                                        <div class="border-profile"></div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">person</i>
+                                            <a href="#" class="body-text-md text-content-bio">Informasi Pribadi</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-1.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyConecLtd</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-2.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyChance</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-3.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyEvent</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-4.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyInsight</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-5.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyProject</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-6.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyQuiz</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-7.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyExpert</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-8.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyTalk</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-9.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyFund</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-right fr">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="card-profile-aktivity shadow shadow-6">
+                                        <div class="text-title-profile">
+                                            <a href="profile.html" class="material-icons mr-20">arrow_back</a>
+                                            <p class="sub-title-text-2">Aktivitas</p>
+                                            <a href="#" class="material-icons earth">public</a>
+                                            <a href="#modalProfile-addAktivity" data-toggle="modal"
+                                                class="material-icons add">add</a>
+                                        </div>
+                                        <div class="button-following-aktivity mt-16" id="profile-button">
+                                            <button class="btn-profile active">Semua</button>
+                                            <button class="btn-profile">U-Event</button>
+                                            <button class="btn-profile">U-Insight</button>
+                                            <button class="btn-profile">U-Expert</button>
+                                            <button class="btn-profile">U-Talk</button>
+                                            <button class="btn-profile">U-Fund</button>
+                                        </div>
+                                        <div class="aktivity-content-edit mt-16">
+                                            <div class="main-content">
+                                                <div class="image-title-activity">
+                                                    <img class="image"
+                                                        src="img/other-image/img-profile-page/icon-profile-logo.png"
+                                                        alt="">
+                                                    <div class="background body-text-sm">U-EVENT</div>
+                                                    <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                    <i class="material-icons icon-activity">circle</i>
+                                                    <p class="body-text-xs text-content-activity">Artikel</p>
+                                                </div>
+                                                <p class="body-text-xl semi-bold text-title-activity">Kado Tahun Baru
+                                                    2022 UMKM Binaan BI Provinsi Papua</p>
+                                                <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                    Artikel</p>
+                                            </div>
+                                            <div class="main-content">
+                                                <a href="#modalProfile-addAktivity-Event" data-toggle="modal" class="material-icons">edit</a>
+                                            </div>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content-edit mt-16">
+                                            <div class="main-content">
+                                                <div class="image-title-activity">
+                                                    <img class="image"
+                                                        src="img/other-image/img-profile-page/icon-profile-logo.png"
+                                                        alt="">
+                                                    <div class="background body-text-sm">U-INSIGHT</div>
+                                                    <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                    <i class="material-icons icon-activity">circle</i>
+                                                    <p class="body-text-xs text-content-activity">Artikel</p>
+                                                </div>
+                                                <p class="body-text-xl semi-bold text-title-activity">Kado Tahun Baru
+                                                    2022 UMKM Binaan BI Provinsi Papua</p>
+                                                <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                    Artikel</p>
+                                            </div>
+                                            <div class="main-content">
+                                                <a href="#modalProfile-addAktivity-Insight" data-toggle="modal" class="material-icons">edit</a>
+                                            </div>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content-edit mt-16">
+                                            <div class="main-content">
+                                                <div class="image-title-activity">
+                                                    <img class="image"
+                                                        src="img/other-image/img-profile-page/icon-profile-logo.png"
+                                                        alt="">
+                                                    <div class="background body-text-sm">U-EXPERT</div>
+                                                    <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                    <i class="material-icons icon-activity">circle</i>
+                                                    <p class="body-text-xs text-content-activity">Artikel</p>
+                                                </div>
+                                                <p class="body-text-xl semi-bold text-title-activity">Kado Tahun Baru
+                                                    2022 UMKM Binaan BI Provinsi Papua</p>
+                                                <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                    Artikel</p>
+                                            </div>
+                                            <div class="main-content">
+                                                <a href="#modalProfile-addAktivity-Expert" data-toggle="modal" class="material-icons">edit</a>
+                                            </div>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content-edit mt-16">
+                                            <div class="main-content">
+                                                <div class="image-title-activity">
+                                                    <img class="image"
+                                                        src="img/other-image/img-profile-page/icon-profile-logo.png"
+                                                        alt="">
+                                                    <div class="background body-text-sm">U-FUND</div>
+                                                    <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                    <i class="material-icons icon-activity">circle</i>
+                                                    <p class="body-text-xs text-content-activity">Artikel</p>
+                                                </div>
+                                                <p class="body-text-xl semi-bold text-title-activity">Kado Tahun Baru
+                                                    2022 UMKM Binaan BI Provinsi Papua</p>
+                                                <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                    Artikel</p>
+                                            </div>
+                                            <div class="main-content">
+                                                <a href="#modalProfile-addAktivity-Fund" data-toggle="modal" class="material-icons">edit</a>
+                                            </div>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content-edit mt-16">
+                                            <div class="main-content">
+                                                <div class="image-title-activity">
+                                                    <img class="image"
+                                                        src="img/other-image/img-profile-page/icon-profile-logo.png"
+                                                        alt="">
+                                                    <div class="background body-text-sm">CONECINSIGHT</div>
+                                                    <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                    <i class="material-icons icon-activity">circle</i>
+                                                    <p class="body-text-xs text-content-activity">Artikel</p>
+                                                </div>
+                                                <p class="body-text-xl semi-bold text-title-activity">Kado Tahun Baru
+                                                    2022 UMKM Binaan BI Provinsi Papua</p>
+                                                <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                    Artikel</p>
+                                            </div>
+                                            <div class="main-content">
+                                                <a href="#" class="material-icons">edit</a>
+                                            </div>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content-edit mt-16">
+                                            <div class="main-content">
+                                                <div class="image-title-activity">
+                                                    <img class="image"
+                                                        src="img/other-image/img-profile-page/icon-profile-logo.png"
+                                                        alt="">
+                                                    <div class="background body-text-sm">CONECINSIGHT</div>
+                                                    <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                    <i class="material-icons icon-activity">circle</i>
+                                                    <p class="body-text-xs text-content-activity">Artikel</p>
+                                                </div>
+                                                <p class="body-text-xl semi-bold text-title-activity">Kado Tahun Baru
+                                                    2022 UMKM Binaan BI Provinsi Papua</p>
+                                                <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                    Artikel</p>
+                                            </div>
+                                            <div class="main-content">
+                                                <a href="#" class="material-icons">edit</a>
+                                            </div>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs text-content-activity">Buku</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                Buku
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs">Video</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Menonton
+                                                Video
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs text-content-activity">Buku</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                Buku
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs">Video</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Menonton
+                                                Video
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs text-content-activity">Buku</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                Buku
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs">Video</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Menonton
+                                                Video
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs text-content-activity">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs text-content-activity">Buku</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Membaca
+                                                Buku
+                                            </p>
+                                        </div>
+                                        <div class="border"></div>
+                                        <div class="aktivity-content">
+                                            <div class="image-title-activity">
+                                                <img class="image"
+                                                    src="img/other-image/img-profile-page/icon-profile-logo.png" alt="">
+                                                <div class="background body-text-sm">CONECINSIGHT</div>
+                                                <p class="body-text-xs">01 Januari 2020</p>
+                                                <i class="material-icons icon-activity">circle</i>
+                                                <p class="body-text-xs">Video</p>
+                                            </div>
+                                            <p class="body-text-xl semi-bold">Kado Tahun Baru 2022 5 UMKM Binaan BI
+                                                Provinsi
+                                                Papua</p>
+                                            <p class="body-text-xs text-activity-blur">Andhika Sasta Gautama Menonton
+                                                Video
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Content -->
+<!-- MODAL -->
+
+<!-- 2. MODAL PROFILE ALERT SUCCES  -->
+<div id="modalProfile-succes" class="modal-profile-success">
+    <div class="modal-profilesuccess-content">
+        <div class="modal-profilesuccess-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Kelengkapan Data Profile</p>
+                <span class="close-card-profilesuccess material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <div class="padding-body">
+                    <div class="image-body">
+                        <img src="img/other-image/img-profile-page/profile-succes-modal.png" alt="image-modal-succes">
+                    </div>
+                    <div class="text-body">
+                        <h5 class="span-color center mt-16">Selamat kamu mendapatkan +5 ConecPoint.</h5>
+                        <p class="center mt-16">Kelengkapan profilmu sudah 90%. Yuk lengkapi profilmu untuk membantu
+                            kami lebih mengenal kamu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <button class="btn btn-primary btn-full" data-dismiss="modal">Oke</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 3. MODAL PROFILE INFO UMUM -->
+<div id="modalProfile-infoumum" class="modal-profile-infoumum">
+    <div class="modal-content-activity">
+        <div class="modal-card-activity">
+            <div class="col-12 modal-header">
+                <p class="sub-title-text-2 modal-header-text">Edit Informasi Umum</p>
+                <span class="close-card-activity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="col-12 modal-border"></div>
+            <div class="col-12 modal-content">
+                <img src="img/other-image/img-profile-page/modal-image-profile.png" alt="">
+            </div>
+            <form action="" class="form">
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Nama Lengkap*</span>
+                        <input type="text" id="username" placeholder="Masukan Nama Lengkap"
+                            value="Andhika Sastra Gautama">
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control " id="form-control-1">
+                        <span class="form-label">Username*</span>
+                        <input type="text" id="username" placeholder="Masukan Nama Lengkap" value="andhikasg">
+
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section-born">
+                    <div class="modal-form-section-born-2">
+                        <div class="form-control form-sm" id="form-control-1">
+                            <span class="form-label">Tempat Lahir</span>
+                            <input type="text" id="username" placeholder="Masukkan tempat lahir ">
+                        </div>
+                        <div class="form-control form-sm" id="form-control-4">
+                            <span class="form-label">Tanggal Lahir</span>
+                            <div class="inner-form left-icon">
+                                <span>
+                                    <i class="material-icons">calendar_today</i>
+                                </span>
+                                <input class="input-left-icon" type="text" placeholder="06/06/2000" id="datepicker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Jenis Kelamin</span>
+                        <div class="dropdown-box-1">
+                            <select class="dropdown-1" name="select-rekening" id="select-gender" style="color: #131313">
+                                <option value="" disabled selected>Pilih jenis kelamin </option>
+                                <option value="1">Laki - laki</option>
+                                <option value="2">Perempuan</option>
+                            </select>
+                            <i class="material-icons">expand_more</i>
+                        </div>
+                        <!-- <input type="text" id="username" placeholder="Pilih jenis kelamin"> -->
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Negara</span>
+                        <input type="text" id="username" placeholder="Pilih negara">
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Provinsi</span>
+                        <input type="text" id="username" placeholder="Pilih provinsi">
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Kota</span>
+                        <input type="text" id="username" placeholder="Pilih kota">
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-border-footer"></div>
+                <div class="col-12 btn-submit-modal">
+                    <button class="btn btn-primary">Daftar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- one div -->
+<!-- 4. MODAL PROFILE BANNER EDIT/ADD -->
+<div id="modalProfile-banner" class="modal-profile-banner">
+    <!-- Modal content -->
+    <div class="modal-banner-content">
+        <div class="modal-banner-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Gambar Sampul</p>
+                <span class="close-card-banner material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <div class="add-image">
+                    <a href="#modalProfile-delete" data-toggle="modal" class="btn btn-secondary">Hapus Gambar</a>
+                    <a href="#" class="btn btn-primary">Tambah Gambar</a>
+                </div>
+                <button class="btn btn-primary" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 5. MODAL PROFILE BANNER DELETE -->
+<div id="modalProfile-delete" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Gambar Sampul</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, gambar sampul pada profil kamu akan kosong</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Simpan</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end div-->
+
+<!-- Modal Profile Page aktivity Create-->
+<!-- ============================================== -->
+<!-- Modal Pertama / inti -->
+<div id="modalProfile-addAktivity" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Tambah Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <div class="select-box">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Aktivitas</label>
+                    <div class="options-container">
+                        <div class="option">
+                            <input type="radio" class="radio" id="insight" name="category" />
+                            <label class="body-text-xs" for="insight">U-Insight</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio" id="event" name="category" />
+                            <label class="body-text-xs" for="event">U-Event</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio" id="expert" name="category" />
+                            <label class="body-text-xs" for="expert">U-Expert</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio" id="fund" name="category" />
+                            <label class="body-text-xs" for="fund">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected">
+                        <p class="selected-text" id="selectedDropdown">Pilih jenis aktivitas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <button id="btn-uevent-next" disabled class="btn" data-dismiss="modal">Lanjut isi Data</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Kedua U-Event -->
+<div id="modalProfile-addAktivity-second" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Tambah Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableEvent">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-three">
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-three">
+                        <p class="selected-text">U-Event</p>
+                    </div>
+                </div>
+                <!-- Judul Event -->
+                <div class="form mt-8">
+                    <div class="form-control input-label " id="form-control-1">
+                        <span class="form-label filled">Judul Event*</span>
+                        <input type="text" id="titleEvent" placeholder="Masukan Judul Event">
+                    </div>
+                </div>
+                <!-- Tanggal Event -->
+                <div class="form mt-16">
+                    <div class="form-control input-label-second" id="form-control-4">
+                        <span class="form-label filled-second">Tanggal Lahir</span>
+                        <div class="inner-form left-icon">
+                            <span>
+                                <i class="material-icons">calendar_today</i>
+                            </span>
+                            <input class="input-left-icon" type="text" placeholder="06/06/2000" id="datepicker-second">
+                        </div>
+                    </div>
+                </div>
+                <!-- jenis event -->
+                <div class="select-box mt-16">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Event</label>
+                    <div class="options-container options-container-second">
+                        <div class="option option-second">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">Online</label>
+                        </div>
+                        <div class="option option-second">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Offline</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-second">
+                        <p class="selected-text">Pilih jenis Event</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer btn-submit-register">
+                <button id="btnEvent-prev" class="btn btn-secondary mr-16">Sebelumnya</button>
+                <button type="submit" disabled="disabled" class="btn">Tambah</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Ketiga U-Insight -->
+<div id="modalProfile-addAktivity-three" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Tambah Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableInsight">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-four">
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-four">
+                        <p class="selected-text">U-Insight</p>
+                    </div>
+                </div>
+                <!-- Judul Event -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-three" id="form-control-1">
+                        <span class="form-label filled-three">Judul Insight*</span>
+                        <input type="text" id="titleInsight" placeholder="Masukan Judul Insight">
+                    </div>
+                </div>
+                <!-- jenis event -->
+                <div class="select-box mt-16">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Insight*</label>
+                    <div class="options-container options-container-five">
+                        <div class="option option-five">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">Video</label>
+                        </div>
+                        <div class="option option-five">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Foto</label>
+                        </div>
+                        <div class="option option-five">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Halaman</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-five">
+                        <p class="selected-text">Pilih jenis insight</p>
+                    </div>
+                </div>
+                <div class="form mt-8 mt-8">
+                    <div class="form-control form-input-four" id="form-control-1">
+                        <span class="form-label filled-four">Tautan Insight*</span>
+                        <input type="text" id="link" placeholder="Masukan tautan insight">
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <button id="btnInsight-prev"  class="btn btn-secondary mr-16">Sebelumnya</button>
+                <div class="btn-submit-register">
+                    <button type="submit" disabled="disabled" class="btn">Tambah</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Ketiga U-Expert -->
+<div id="modalProfile-addAktivity-four" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Tambah Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableExpert">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-six">
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-six">
+                        <p class="selected-text">U-Expert</p>
+                    </div>
+                </div>
+                <!-- nama Konsultan -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-five" id="form-control-1">
+                        <span class="form-label filled-five">Nama Konsultan*</span>
+                        <input type="text" id="titleExpert" placeholder="Masukan nama konsultan">
+                    </div>
+                </div>
+                <!-- pekerjaan Konsultan -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-six" id="form-control-1">
+                        <span class="form-label filled-six">Pekerjaan Konsultan*</span>
+                        <input type="text" id="workExpert" placeholder="Masukan pekerjaan konsultan">
+                    </div>
+                </div>
+                <!-- Tanggal konsultan -->
+                <div class="form mt-16">
+                    <div class="form-control" id="form-control-4">
+                        <span class="form-label">Tanggal Konsultasi</span>
+                        <div class="inner-form left-icon">
+                            <span>
+                                <i class="material-icons">calendar_today</i>
+                            </span>
+                            <input class="input-left-icon" type="text" placeholder="06/06/2000" id="datepicker-tri">
+                        </div>
+                    </div>
+                </div>
+                <!-- jenis konsultan -->
+                <div class="select-box mt-16">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Konsultasi</label>
+                    <div class="options-container options-container-seven">
+                        <div class="option option-seven">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">Online</label>
+                        </div>
+                        <div class="option option-seven">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Offline</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-seven">
+                        <p class="selected-text">Pilih jenis Event</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer btn-submit-register">
+                <button id="btnExpert-prev" class="btn btn-secondary mr-16">Sebelumnya</button>
+                <button type="submit" disabled="disabled" class="btn">Tambah</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Ketiga U-Fund -->
+<div id="modalProfile-addAktivity-five" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Tambah Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableFund">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-eight">
+                        <div class="option option-eight input-label">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs filled" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-eight">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-eight">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-eight">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-eight">
+                        <p class="selected-text">U-Fund</p>
+                    </div>
+                </div>
+                <!-- Judul Event -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-seven" id="form-control-1">
+                        <span class="form-label filled-seven">Nama Perusahaan*</span>
+                        <input type="text" id="titleFund" placeholder="Masukkan nama perusahaan yang menerima dana investasi">
+                    </div>
+                </div>
+                <!-- Tanggal Event -->
+                <div class="form mt-16">
+                    <div class="form-control" id="form-control-4">
+                        <span class="form-label">Tanggal Mulai Investasi*</span>
+                        <div class="inner-form left-icon">
+                            <span>
+                                <i class="material-icons">calendar_today</i>
+                            </span>
+                            <input class="input-left-icon" type="text" placeholder="Masukkan tangal mulai investasi" id="datepicker-four">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer btn-submit-register">
+                <button id="btnFund-prev" class="btn btn-secondary mr-16">Sebelumnya</button>
+                <button type="submit" disabled="disabled" class="btn">Tambah</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Edit & Delete Activity -->
+<!-- MODAL U-EVENT EDIT/DELETE-->
+<div id="modalProfile-addAktivity-Event" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableEvent">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-three">
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-three">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-three">
+                        <p class="selected-text">U-Event</p>
+                    </div>
+                </div>
+                <!-- Judul Event -->
+                <div class="form mt-8">
+                    <div class="form-control input-label " id="form-control-1">
+                        <span class="form-label filled">Judul Event*</span>
+                        <input type="text" id="titleEvent" placeholder="Masukan Judul Event" value="Class Surveyor Advanced Training Program">
+                    </div>
+                </div>
+                <!-- Tanggal Event -->
+                <div class="form mt-16">
+                    <div class="form-control input-label-second" id="form-control-4">
+                        <span class="form-label filled-second">Tanggal Lahir</span>
+                        <div class="inner-form left-icon">
+                            <span>
+                                <i class="material-icons">calendar_today</i>
+                            </span>
+                            <input class="input-left-icon" type="text" placeholder="06/06/2000" id="datepicker-second" value="06/06/2000">
+                        </div>
+                    </div>
+                </div>
+                <!-- jenis event -->
+                <div class="select-box mt-16">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Event</label>
+                    <div class="options-container options-container-second">
+                        <div class="option option-second">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">Online</label>
+                        </div>
+                        <div class="option option-second">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Offline</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-second">
+                        <p class="selected-text">Online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer btn-submit-register">
+                <a href="#modalProfile-aktivityDelete-Event" data-toggle="modal" class="btn btn-secondary mr-16">Hapus</a>
+                <button type="submit" disabled="disabled" class="btn">Simpan</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalProfile-aktivityDelete-Event" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Hapus Aktivitas?</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, aktivitas U-Event ini akan hilang pada halaman profil kamu</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MODAL EVENT -->
+
+<!-- MODAL U-INSIGHT EDIT/DELETE-->
+<div id="modalProfile-addAktivity-Insight" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableInsight">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-four">
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-four">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-four">
+                        <p class="selected-text">U-Insight</p>
+                    </div>
+                </div>
+                <!-- Judul Event -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-three" id="form-control-1">
+                        <span class="form-label filled-three">Judul Insight*</span>
+                        <input type="text" id="titleInsight" placeholder="Masukan Judul Insight" value="Alasan Kenapa Resolusi Lo Bakal Gagal (Cara Biar Konsisten dengan Tujuan Hidup)">
+                    </div>
+                </div>
+                <!-- jenis event -->
+                <div class="select-box mt-16">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Insight*</label>
+                    <div class="options-container options-container-five">
+                        <div class="option option-five">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">Video</label>
+                        </div>
+                        <div class="option option-five">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Foto</label>
+                        </div>
+                        <div class="option option-five">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Halaman</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-five">
+                        <p class="selected-text">Video</p>
+                    </div>
+                </div>
+                <div class="form mt-8 mt-8">
+                    <div class="form-control form-input-four" id="form-control-1">
+                        <span class="form-label filled-four">Tautan Insight*</span>
+                        <input type="text" id="link" placeholder="Masukan tautan insight" value="youtube.com/watch?v=JspNyCeu0AQ">
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#modalProfile-aktivityDelete-Insight" data-toggle="modal" class="btn btn-secondary mr-16">Hapus</a>
+                <div class="btn-submit-register">
+                    <button type="submit" disabled="disabled" class="btn">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalProfile-aktivityDelete-Insight" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Hapus Aktivitas?</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, aktivitas U-Insight ini akan hilang pada halaman profil kamu</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MODAL INSIGHT -->
+
+<!-- MODAL U-EXPERT EDIT/DELETE-->
+<div id="modalProfile-addAktivity-Expert" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableExpert">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-six">
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-six">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-six">
+                        <p class="selected-text">U-Expert</p>
+                    </div>
+                </div>
+                <!-- nama Konsultan -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-five" id="form-control-1">
+                        <span class="form-label filled-five">Nama Konsultan*</span>
+                        <input type="text" id="titleExpert" placeholder="Masukan nama konsultan" value="Jeffri Rohmando Aulia">
+                    </div>
+                </div>
+                <!-- pekerjaan Konsultan -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-six" id="form-control-1">
+                        <span class="form-label filled-six">Pekerjaan Konsultan*</span>
+                        <input type="text" id="workExpert" placeholder="Masukan pekerjaan konsultan" value="Web & Apps Master">
+                    </div>
+                </div>
+                <!-- Tanggal konsultan -->
+                <div class="form mt-16">
+                    <div class="form-control" id="form-control-4">
+                        <span class="form-label">Tanggal Konsultasi</span>
+                        <div class="inner-form left-icon">
+                            <span>
+                                <i class="material-icons">calendar_today</i>
+                            </span>
+                            <input class="input-left-icon" type="text" placeholder="06/06/2000" id="datepicker-tri" value="05/01/2022">
+                        </div>
+                    </div>
+                </div>
+                <!-- jenis konsultan -->
+                <div class="select-box mt-16">
+                    <label id="label-dropdown" for="" class="body-text-xs ml-16">Jenis Konsultasi</label>
+                    <div class="options-container options-container-seven">
+                        <div class="option option-seven">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">Online</label>
+                        </div>
+                        <div class="option option-seven">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">Offline</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-seven">
+                        <p class="selected-text">Online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer btn-submit-register">
+                <a href="#modalProfile-aktivityDelete-Expert" data-toggle="modal" class="btn btn-secondary mr-16">Hapus</a>
+                <button type="submit" disabled="disabled" class="btn">Simpan</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalProfile-aktivityDelete-ExpertSecond" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Hapus Aktivitas?</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, aktivitas ConecExpert pada tanggal 05/01/2022 akan hilang pada profil kamu</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalProfile-aktivityDelete-Expert" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Hapus Aktivitas?</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, aktivitas ConecExpert bersama Jeffri Rohmando Aulia akan hilang pada halaman profil kamu</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MODAL EXPERT -->
+
+<!-- MODAL U-FUND EDIT/DELETE-->
+<div id="modalProfile-addAktivity-Fund" class="modal-profile-addActivity">
+    <!-- Modal content -->
+    <div class="modal-addActivity-content">
+        <div class="modal-addActivity-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Aktivitas</p>
+                <span class="close-card-addActivity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableFund">
+                <!-- pilih event -->
+                <div class="select-box">
+                    <label for="" class="body-text-xs ml-16 span-color">Jenis Aktivitas</label>
+                    <div class="options-container options-container-eight">
+                        <div class="option option-eight input-label">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label class="body-text-xs filled" for="automobiles">U-Insight</label>
+                        </div>
+                        <div class="option option-eight">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label class="body-text-xs" for="film">U-Event</label>
+                        </div>
+                        <div class="option option-eight">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label class="body-text-xs" for="science">U-Expert</label>
+                        </div>
+                        <div class="option option-eight">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label class="body-text-xs" for="art">U-Fund</label>
+                        </div>
+                    </div>
+                    <div class="selected selected-eight">
+                        <p class="selected-text">U-Fund</p>
+                    </div>
+                </div>
+                <!-- Judul Event -->
+                <div class="form mt-8">
+                    <div class="form-control form-input-seven" id="form-control-1">
+                        <span class="form-label filled-seven">Nama Perusahaan*</span>
+                        <input type="text" id="titleFund" placeholder="Masukkan nama perusahaan yang menerima dana investasi" value="PT. Hamada Logistik">
+                    </div>
+                </div>
+                <!-- Tanggal Event -->
+                <div class="form mt-16">
+                    <div class="form-control" id="form-control-4">
+                        <span class="form-label">Tanggal Mulai Investasi*</span>
+                        <div class="inner-form left-icon">
+                            <span>
+                                <i class="material-icons">calendar_today</i>
+                            </span>
+                            <input class="input-left-icon" type="text" placeholder="Masukkan tangal mulai investasi" id="datepicker-four" value="05/01/2022">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer btn-submit-register">
+                <a href="#modalProfile-aktivityDelete-Fund" data-toggle="modal" class="btn btn-secondary mr-16">Hapus</a>
+                <button type="submit" disabled="disabled" class="btn">Simpan</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalProfile-aktivityDelete-Fund" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Hapus Aktivitas?</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, aktivitas ConecFund untuk PT. Hamada Logistik akan hilang pada profil kamu</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END MODAL FUND -->
+
+<!-- End Modal & Delete Activity -->
+<!-- =============================================== -->
+<!-- Modal Profile Page aktivity UPDATE DELETE -->
+<!-- ============================================== -->
+
+
+<!-- END MODAL -->
+
+<!-- ALERT COPY -->
+<!-- ALERT -->
+<div id="alertNotifCopy" class="modal-alert">
+    <!-- Modal content -->
+    <div class="modal-alert-content">
+        <div class="alert-card">
+            <div class="alert-icon">
+                <i class="material-icons span-color-white mr-8">check_circle</i>
+                <p class="span-color-white">Berhasil Menyalin Id</p>
+            </div>
+            <span class="close-card-icon material-icons span-color-white" data-dismiss="modal">clear</span>
+        </div>
+    </div>
+</div>
+<!-- end Alert -->
+<script>
+    function newModal(param) {
+        $('#btn-uevent-next').attr('disabled', false).addClass('btn-primary')
+        if (param == 'U-Insight') {
+            $('#btn-uevent-next').click(function() {
+                $('#modalProfile-addAktivity' || '#modalProfile-addAktivity-second' || '#modalProfile-addAktivity-four' || '#modalProfile-addAktivity-five').one('hidden.bs.modal', function() {
+                    $('#modalProfile-addAktivity-three').modal('show'); 
+                }).modal('hide');
+            });
+        } else if (param == 'U-Event') {
+            $('#btn-uevent-next').click(function() {
+                $('#modalProfile-addAktivity' || '#modalProfile-addAktivity-three' || '#modalProfile-addAktivity-four' || '#modalProfile-addAktivity-five').one('hidden.bs.modal', function() {
+                    $('#modalProfile-addAktivity-second').modal('show'); 
+                }).modal('hide');
+            });
+        } else if (param == 'U-Expert') {
+            $('#btn-uevent-next').click(function() {
+                $('#modalProfile-addAktivity' || '#modalProfile-addAktivity-second' || '#modalProfile-addAktivity-three' || '#modalProfile-addAktivity-five').one('hidden.bs.modal', function() {
+                    $('#modalProfile-addAktivity-four').modal('show');  
+                }).modal('hide');
+            });
+        } else if (param == 'U-Fund') {
+            $('#btn-uevent-next').click(function() {
+                $('#modalProfile-addAktivity' || '#modalProfile-addAktivity-second' || '#modalProfile-addAktivity-four' || '#modalProfile-addAktivity-three').one('hidden.bs.modal', function() {
+                    $('#modalProfile-addAktivity-five').modal('show'); 
+                }).modal('hide');
+            });
+        }
+        return false
+    }
+    // dropdown
+    const selected = document.querySelector(".selected-text");
+    const optionsContainer = document.querySelector(".options-container");
+    const optionsList = document.querySelectorAll(".option");
+
+    selected.addEventListener("click", () => {
+        optionsContainer.classList.toggle("active");
+    });
+
+    optionsList.forEach(o => {
+        o.addEventListener("click", () => {
+            selected.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainer.classList.remove("active");
+            newModal(selected.innerHTML);
+        });
+    });
+
+   
+
+    // function nextModal(argument) {
+    //     $('#btn-uevent-next').click(function() {
+    //         $('#modalProfile-addAktivity').one('hidden.bs.modal', function() {
+    //             $(`#modalProfile-addAktivity-${argument}`).modal('show'); 
+    //         }).modal('hide');
+    //     });
+    // }
+
+    // function prevModal (argument2) {
+    //     $('#btn-uevent-prev').click(function() {
+    //         $(`#modalProfile-addAktivity-${argument2}`).one('hidden.bs.modal', function() {
+    //             $('#modalProfile-addAktivity').modal('show'); 
+    //         }).modal('hide');
+    //     });
+    // };
+
+    // event
+    const selectedSecond = document.querySelector(".selected-second");
+    const optionsContainerSecond = document.querySelector(".options-container-second");
+    const optionsListSecond = document.querySelectorAll(".option-second");
+    selectedSecond.addEventListener("click", () => {
+        optionsContainerSecond.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListSecond.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedSecond.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainerSecond.classList.remove("active");
+            
+        });
+    });
+
+    // Event
+    const selectedThree = document.querySelector(".selected-three");
+    const optionsContainerThree = document.querySelector(".options-container-three");
+    const optionsListThree = document.querySelectorAll(".option-three");
+    selectedThree.addEventListener("click", () => {
+        optionsContainerThree.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListThree.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedThree.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainerThree.classList.remove("active");
+            
+        });
+    });
+
+    // Insight
+    const selectedfour = document.querySelector(".selected-four");
+    const optionsContainerfour = document.querySelector(".options-container-four");
+    const optionsListfour = document.querySelectorAll(".option-four");
+    selectedfour.addEventListener("click", () => {
+        optionsContainerfour.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListfour.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedfour.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainerfour.classList.remove("active");
+            
+        });
+    });
+    const selectedfive = document.querySelector(".selected-five");
+    const optionsContainerfive = document.querySelector(".options-container-five");
+    const optionsListfive = document.querySelectorAll(".option-five");
+    selectedfive.addEventListener("click", () => {
+        optionsContainerfive.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListfive.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedfive.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainerfive.classList.remove("active");
+            
+        });
+    });
+
+    //U-Expert
+    const selectedsix = document.querySelector(".selected-six");
+    const optionsContainersix = document.querySelector(".options-container-six");
+    const optionsListsix = document.querySelectorAll(".option-six");
+    selectedsix.addEventListener("click", () => {
+        optionsContainersix.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListsix.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedsix.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainersix.classList.remove("active");
+            
+        });
+    });
+    const selectedseven = document.querySelector(".selected-seven");
+    const optionsContainerseven = document.querySelector(".options-container-seven");
+    const optionsListseven = document.querySelectorAll(".option-seven");
+    selectedseven.addEventListener("click", () => {
+        optionsContainerseven.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListseven.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedseven.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainerseven.classList.remove("active");
+            
+        });
+    });
+
+    //U-Fund
+    const selectedeight = document.querySelector(".selected-eight");
+    const optionsContainereight = document.querySelector(".options-container-eight");
+    const optionsListeight = document.querySelectorAll(".option-eight");
+    selectedeight.addEventListener("click", () => {
+        optionsContainereight.classList.toggle("active");
+        $('#label-dropdown').addClass('span-color');
+
+    });
+    optionsListeight.forEach(o => {
+        o.addEventListener("click", () => {
+            selectedeight.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainereight.classList.remove("active");
+            
+        });
+    });
+
+
+    // ======================================
+    // Modal Activity
+    $(function () {
+        $('#btnInsight-prev').click(function() {
+            $('#modalProfile-addAktivity-three').one('hidden.bs.modal', function() {
+                $('#modalProfile-addAktivity').modal('show'); 
+            }).modal('hide');
+        });
+    });
+    $(function () {
+        $('#btnExpert-prev').click(function() {
+            $('#modalProfile-addAktivity-four').one('hidden.bs.modal', function() {
+                $('#modalProfile-addAktivity').modal('show'); 
+            }).modal('hide');
+        });
+    });
+    $(function () {
+        $('#btnEvent-prev').click(function() {
+            $('#modalProfile-addAktivity-second').one('hidden.bs.modal', function() {
+                $('#modalProfile-addAktivity').modal('show'); 
+            }).modal('hide');
+        });
+    });
+    $(function () {
+        $('#btnFund-prev').click(function() {
+            $('#modalProfile-addAktivity-five').one('hidden.bs.modal', function() {
+                $('#modalProfile-addAktivity').modal('show'); 
+            }).modal('hide');
+        });
+    });
+
+    //===================================
+
+    // DISABLE BUTTON
+    $(document).ready(() => {
+        $("input[type=text]").keyup(onLabelUpdate);      
+        // button disable
+        $("#buttonDisableEvent input[type=text]").keyup(onFormUpdateEvent);
+        $("#buttonDisableInsight input[type=text]").keyup(onFormUpdateInsight);
+        $("#buttonDisableExpert input[type=text]").keyup(onFormUpdateExpert);
+        $("#buttonDisableFund input[type=text]").keyup(onFormUpdateFund);
+    });
+    //coliring span
+    function onLabelUpdate() {
+        // ==second==
+        const profileEventTitle = $(".input-label input").val();
+        const profileEventDate = $('.input-label-second input').val();
+        // ==THREE==
+        const profileInsightTitle = $(".form-input-three input").val();
+        const profileInsightLink = $(".form-input-four input").val();
+        
+        // ==four==
+        const profileExpertTitle = $(".form-input-five input").val();
+        const profileExpertWork = $(".form-input-six input").val();
+        // ==five==
+        const profileFundTitle = $(".form-input-seven input").val();
+
+        // ========
+        // EVENT
+        if (profileEventTitle) {
+            $('.filled').addClass('span-color')
+        } else {
+            $('.filled').removeClass('span-color')
+        }
+        if (profileEventDate) {
+            $('.filled-second').addClass('span-color')
+        } else {
+            $('.filled-second').removeClass('span-color')
+        }
+        // END EVENT
+        // Insight
+        if (profileInsightTitle) {
+            $('.filled-three').addClass('span-color');
+        } else {
+            $('.filled-three').removeClass('span-color')
+        }
+        if (profileInsightLink) {
+            $('.filled-four').addClass('span-color');
+        } else {
+            $('.filled-four').removeClass('span-color')
+        }
+        // End INSIGHT
+
+        // FOUR
+        if (profileExpertTitle) {
+            $('.filled-five').addClass('span-color');
+        } else {
+            $('.filled-five').removeClass('span-color')
+        }
+        if (profileExpertWork) {
+            $('.filled-six').addClass('span-color');
+        } else {
+            $('.filled-six').removeClass('span-color')
+        }
+        // END FOUR
+        
+        // FIVE
+        if (profileFundTitle) {
+            $('.filled-seven').addClass('span-color');
+        } else {
+            $('.filled-seven').removeClass('span-color')
+        }
+        // END FIVE
+    }
+    // BUTTON DISABLED EVENT
+    function onFormUpdateEvent() {
+        const profileEventTitle = $("#titleEvent").val();
+        if (profileEventTitle) {
+            $('.btn-submit-register button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+        } else {
+            $('.btn-submit-register button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+        }
+    }
+
+    // BUTTON DISABLE INSIGHT
+    function onFormUpdateInsight() {
+        const profileInsightTitle = $("#titleInsight").val();
+        if (profileInsightTitle) {
+            $('.btn-submit-register button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+        } else {
+            $('.btn-submit-register button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+        }
+    }
+
+    // BUTTON DISABLED EXPERT
+    function onFormUpdateExpert() {
+        const profileExpertTitle = $("#titleExpert").val();
+        const profileExpertWork = $("#workExpert").val();
+        if (profileExpertTitle && profileExpertWork) {
+            $('.btn-submit-register button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+        } else {
+            $('.btn-submit-register button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+        }
+    }
+
+    // BUTTON DISABLE INSIGHT
+    function onFormUpdateFund() {
+        const profileFundTitle = $("#titleFund").val();
+        if (profileFundTitle) {
+            $('.btn-submit-register button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+        } else {
+            $('.btn-submit-register button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+        }
+    }
+</script>
+
+<!-- inject:footer -->
+<!-- Footer-->
+		<footer>
+			<div class="wrapper">
+				<div class="footer">
+					<div class="inner-footer">
+						<div class="inner-left-content">
+							<div class="image">
+								<img src="./img/logo/05. Uniqty 2.png" alt="logo-connec" />
+							</div>
+							<div class="text-content-left">
+								<p class="text-title">Alamat</p>
+								<p class="text-body">Conecworld Center (AJBS)<br>
+									Bloc. D No. GF-D3.11 <br>
+									Jalan Ratna 14, Ngagel, Wonokromo, 60246, Surabaya, <br>
+									Jawa Timur, Indonesia
+								</p>
+							</div>
+						<div class="text-content-left">
+							<p class="text-title">Kontak Kami</p>
+		
+							<div class="image-content">
+								<img src="./img/icon/message.png" class="msg" alt="mail">
+								<p>hi@connecworld.com</p>
+							</div>
+							<div class="image-content">
+								<img src="./img/icon/telephone.png" alt="telephone">
+								<p>08111111</p>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="inner-mid-content">
+						<div>
+							<p>Produk</p>
+						</div>
+						<ul>
+							<li><a href="">U-Link</a></li>
+							<li><a href="">U-Chancee</a></li>
+							<li><a href="">U-Event</a></li>
+							<li><a href="">U-Insight</a></li>
+							<li><a href="">U-Quiz</a></li>
+							<li><a href="">U-Expert</a></li>
+							<li><a href="">U-Project</a></li>
+							<li><a href="">U-Talk</a></li>
+							<li><a href="" class="hover:text-Shade3Color3">U-Fund</a></li>
+						</ul>
+					</div>
+					<div class="inner-mid-content">
+						<div>
+							<p>Perusahaan</p>
+						</div>
+						<ul>
+							<li><a href="">Tentang Kami</a>
+							</li>
+							<li><a href="">Kerja Sama</a></li>
+							<li><a href="">Karir</a></li>
+						</ul>
+					</div>
+					<div class="inner-mid-content">
+						<div>
+							<p>Peraturan</p>
+						</div>
+						<ul>
+							<li><a href="">Syarat & Ketentuan</a></li>
+							<li><a href="">Kebijakan Privasi</a></li>
+							<li><a href="">Bantuan</a></li>
+							<li><a href="">FAQ</a></li>
+						</ul>
+					</div>
+
+					<div class="inner-right-content">
+						<p>Media Sosial</p>
+						<div class="image-wrap">
+							<a href=""><img src="./img/icon/fb.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/ig.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/yt.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/tt.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/tw.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/linkedin.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/spotify 1.png" class="image-src" alt=""></a>
+						</div>
+						<p>Unduh Aplikasi Connecworld Gratis</p>
+						<div class="image-wrap">
+							<a href=""><img src="./img/icon/playstore.png" class="image-src"  alt=""></a>
+							<a href=""><img src="./img/icon/applke.png" class="image-src"  alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="border-footer">
+				</div>
+				<div class="copyright">
+						<p>©2021 Conecworld Hak Cipta Dilindungi</p>
+				</div>
+		</div>	
+		</div>
+		</footer>
+	</body>
+
+	<!-- JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/homepage.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/login.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
+
+	<!-- plugin -->
+	<script src="js/tb-modal.js"></script>
+	<script src="js/select2.min.js"></script>
+	
+	<!-- End JS -->
+	
+    <script src="js/bxslider.js"></script>
+	<script src="js/jquery-ui.js"></script>
+</html>
+<!-- End Footer-->
+<!-- endinject -->

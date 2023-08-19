@@ -1,0 +1,327 @@
+<!-- inject:header:fixed -->
+<!-- endinject -->
+
+<!-- Content-->
+<div class="register-rev">
+    <div class="wrapper">
+        <div class="wrapper-box-register shadow shadow-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-6 content-left">
+
+                        <!-- SLIDER LOGIN REGISTER -->
+                        <div class="wrapper-content-left slider-login">
+                            <!-- slide-1 -->
+                            <a href="#/" class="active" data-slide-index="0">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-1.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Connect</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Memudahkan kamu untuk
+                                            terhubung dengan
+                                            berbagai peluang dan solusi kebutuhan bisnis.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- slide-2 -->
+                            <a href="#/" data-slide-index="1">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-2.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Collaborate</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Wadah untuk membangun
+                                            networking & berkolaborasi
+                                            demi mewujudkan ide-ide brilian bersama Conectizen lainnya.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- slide-3 -->
+                            <a href="#/" data-slide-index="2">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-3.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Contribute</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Bergabunglah bersama kami
+                                            memajukan bangsa melalui
+                                            ekosistem ini, apakah kamu siap?.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-6 content-right">
+                        <div class="wrapper-content-right">
+                            <div class="col-12 image-title jcenter">
+                                <img class="image-register-content" src="img/icon/login-regis.png" alt="">
+                            </div>
+                            <h3 class="title-text-register span-color center mt-4">Yuk Jadi Conectizen!</h3>
+                            <p class="paragraph-text center mt-4">Gabung menjadi Conectizen untuk membangun ekosistem
+                                produktif</p>
+                            <!-- FORM -->
+                            <div class="form" onchange="onFormUpdate()">
+                                <!-- username -->
+                                <div class="form-control mt-16" id="form-control-1">
+                                    <div class="input-label open-disabled register">
+                                        <label for="username" class="form-label filled">Username</label>
+                                        <input type="text" id="username" placeholder="Masukkan username">
+                                    </div>
+                                    <div class="alert alert-error">
+                                        <span class="material-icons alert-icon">error</span>
+                                        <p class="body-text-xs alert-text">Error Message</p>
+                                    </div>
+                                    <div class="alert alert-caution">
+                                        <span class="material-icons alert-icon">warning</span>
+                                        <p class="body-text-xs alert-text">Coution Message</p>
+                                    </div>
+                                    <div class="alert alert-succes">
+                                        <span class="material-icons alert-icon">check_circle</span>
+                                        <p class="body-text-xs alert-text">Succes Message</p>
+                                    </div>
+                                </div>
+                                <!-- number -->
+                                <div class="form-control mt-16" id="form-control-4">
+                                    <div class="input-label-second open-disabled register">
+                                        <label for="number" class="form-label filled-second">Nomor Ponsel</label>
+                                        <input type="number" id="number" placeholder="Contoh : 081234567890">
+                                    </div>
+                                    <div class="alert alert-error">
+                                        <span class="material-icons alert-icon">error</span>
+                                        <p class="body-text-xs alert-text">Error Message</p>
+                                    </div>
+                                    <div class="alert alert-caution">
+                                        <span class="material-icons alert-icon">warning</span>
+                                        <p class="body-text-xs alert-text">Coution Message</p>
+                                    </div>
+                                    <div class="alert alert-succes">
+                                        <span class="material-icons alert-icon">check_circle</span>
+                                        <p class="body-text-xs alert-text">Succes Message</p>
+                                    </div>
+                                </div>
+                                <!-- email -->
+                                <div class="form-control mt-16" id="form-control-2">
+                                    <div class="input-label-tri open-disabled register">
+                                        <label for="emailInput" class="form-label filled-tri">Email</label>
+                                        <input type="email" id="emailInput" placeholder="Masukan Email">
+                                    </div>
+                                    <div class="alert alert-error">
+                                        <span class="material-icons alert-icon">error</span>
+                                        <p class="body-text-xs alert-text">Error Message</p>
+                                    </div>
+                                    <div class="alert alert-caution">
+                                        <span class="material-icons alert-icon">warning</span>
+                                        <p class="body-text-xs alert-text">Coution Message</p>
+                                    </div>
+                                    <div class="alert alert-succes">
+                                        <span class="material-icons alert-icon">check_circle</span>
+                                        <p class="body-text-xs alert-text">Succes Message</p>
+                                    </div>
+                                </div>
+                                <!-- pw -->
+                                <div class="form-control mt-16" id="form-control-3">
+                                    <div class="input-label-four open-disabled register">
+                                        <label for="password" class="form-label filled-four">Kata Sandi</label>
+                                        <div class="inner-form left-icon">
+                                            <span>
+                                                <button class="material-icons password-click"
+                                                    id="buttonPassword">visibility</button>
+                                            </span>
+                                            <input class="input-left-icon" type="password" id="password"
+                                                placeholder="Masukkan kata sandi" />
+                                        </div>
+                                    </div>
+                                    <div class="alert alert-error">
+                                        <span class="material-icons alert-icon">error</span>
+                                        <p class="body-text-xs alert-text">Error Message</p>
+                                    </div>
+                                    <div class="alert alert-caution">
+                                        <span class="material-icons alert-icon">warning</span>
+                                        <p class="body-text-xs alert-text">Coution Message</p>
+                                    </div>
+                                    <div class="alert alert-succes">
+                                        <span class="material-icons alert-icon">check_circle</span>
+                                        <p class="body-text-xs alert-text">Succes Message</p>
+                                    </div>
+                                </div>
+                                <!-- cb -->
+                                <div class="col-12 checkbox mt-16">
+                                    <div class="checkbox-icon open-disabled" >
+                                        <input id="checkbox" type="checkbox" value="">
+                                    </div>
+                                    <div class="col-11 checkbox-title">
+                                        <label for="checkbox" class="body-text-xs text-checkbox">Dengan masuk dan
+                                            daftar, saya
+                                            menyetujui <span class="span-color">Syarat & Ketentuan </span>serta <span
+                                                class="span-color">Kebijakan Privasi</span> yang berlaku</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Button Submit -->
+                            <div class="col-12 btn-submit-register mt-16">
+                                <button type="submit" disabled="disabled" id="btnClickDaftar"
+                                    class="btn btn-full">Daftar</button>
+                            </div>
+                            <div class="col-12 border-div">
+                                <div class="border"></div>
+                                <p class="body-text-xs">Atau</p>
+                            </div>
+                            <div class="col-12 button-div" id="gSignInWrapper">
+                                <button id="customBtn" class="btn btn-full btn-secondary"><img class="g-icon mr-7"
+                                        src="img/icon/g-icon-register.png" alt="">Daftar dengan Google</button>
+                            </div>
+                            <div class="col-12 jcenter mt-16">
+                                <p class="body-text-xs">Sudah punya akun? <a href=""
+                                        class="body-text-sm span-color">Masuk</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Content-->
+<script>
+    // SLIDER
+    $('.slider-login').bxSlider({
+        auto: true,
+        slideWidth: 1216,
+    });
+
+    // DISABLE BUTTON
+    $(document).ready(() => {
+        $("input[type=text]").keyup(onFormUpdate);
+        $("input[type=number]").keyup(onFormUpdate);
+        $("input[type=email]").keyup(onFormUpdate);
+        $("input[type=password]").keyup(onFormUpdate);
+        $("input[type=checkbox]").change(onFormUpdate);
+    });
+
+    function onFormUpdate() {
+        const registerUsername = $("#username").val();
+        const registerNumber = $("#number").val();
+        const registerEmail = $("#emailInput").val();
+        const registerPassword = $("#password").val();
+        const acceptedTnC = $("#checkbox").prop("checked");
+
+        if (registerUsername && registerNumber && registerEmail && registerPassword && acceptedTnC) {
+            $('.btn-submit-register button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+        } else {
+            $('.btn-submit-register button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+
+        }
+    }
+
+    //===================================
+    //inout 1
+    $('.input-label input').keyup(function () {
+        var empty = false;
+        $('.input-label input').each(function () {
+            if ($(this).val().length == 0) {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('.filled').removeClass('span-color')
+        } else {
+            $('.filled').addClass('span-color')
+        }
+    });
+
+    //inout 2
+    $('.input-label-second input').keyup(function () {
+        var empty = false;
+        $('.input-label-second input').each(function () {
+            if ($(this).val().length == 0) {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('.filled-second').removeClass('span-color')
+        } else {
+            $('.filled-second').addClass('span-color')
+        }
+    });
+
+    //inout 3
+    $('.input-label-tri input').keyup(function () {
+        var empty = false;
+        $('.input-label-tri input').each(function () {
+            if ($(this).val().length == 0) {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('.filled-tri').removeClass('span-color')
+        } else {
+            $('.filled-tri').addClass('span-color')
+        }
+    });
+
+    //inout 4
+    $('.input-label-four input').keyup(function () {
+        var empty = false;
+        $('.input-label-four input').each(function () {
+            if ($(this).val().length == 0) {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('.filled-four').removeClass('span-color')
+        } else {
+            $('.filled-four').addClass('span-color')
+        }
+    });
+
+
+    // ==================================
+
+    // BUTTON VIEW PASSWORD
+    $(".password-click").click(function () {
+        if ($("#password").attr("type") == "password") {
+            $("#password").attr("type", "text");
+            $("#buttonPassword").text("visibility_off");
+        } else {
+            $("#password").attr("type", "password");
+            $("#buttonPassword").text("visibility");
+        }
+    });
+
+
+    // GOOGLE BTN REGISTE    R
+    var googleUser = {};
+    var startApp = function () {
+        gapi.load('auth2', function () {
+            // Retrieve the singleton for the GoogleAuth library and set up the client.
+            auth2 = gapi.auth2.init({
+                client_id: 'YOUR_CLIENT_ID.apps.googleusercontent.com',
+                cookiepolicy: 'single_host_origin',
+                // Request scopes in addition to 'profile' and 'email'
+                //scope: 'additional_scope'
+            });
+            attachSignin(document.getElementById('customBtn'));
+        });
+    };
+
+    function attachSignin(element) {
+        console.log(element.id);
+        auth2.attachClickHandler(element, {},
+            function (googleUser) {
+                document.getElementById('name').innerText = "Signed in: " +
+                    googleUser.getBasicProfile().getName();
+            }, function (error) {
+                alert(JSON.stringify(error, undefined, 2));
+            });
+    }
+
+</script>
+<!-- callback google register -->
+<script>startApp();</script>    
+
+<!-- inject:footer -->
+<!-- endinject -->

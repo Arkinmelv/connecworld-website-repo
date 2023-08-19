@@ -1,0 +1,265 @@
+<!-- inject:header:profile -->
+<!-- endinject -->
+<!-- inject:dropdown -->
+<!-- endinject -->
+<!-- Content-->
+
+<section>
+    <div class="wrapper">
+        <div class="wrapper-coneccash">
+            <div class="text-title">
+                <h5 class="span-text">Cash</h5>        
+            </div>
+            <div class="wrapper-content">
+                <div class="wrapper-menu">
+                    <div class="shadow shadow-5 card-menu">
+                        <div class="text-saldo">
+                            <p>Saldo Cash</p>
+                        </div>
+                        <div class="text-isi-saldo">
+                            <h4>Rp. 1.000.000</h4>
+                        </div>
+                        <div class="border-coneccash"></div>
+                        <div class="menu-coneccash-riwayat non-active">
+                            <a href="coneccash-riwayat.html" class="content-menu-coneccash ">Riwayat Transaksi</a>
+                        </div>
+                        <div class="menu-coneccash-topup non-active">
+                            <a href="coneccash-topup.html" class="content-menu-coneccash ">Top Up</a>
+                        </div>
+                        <div class="menu-coneccash-tarik active">
+                            <a href="coneccash-tarik.html" class="content-menu-coneccash ">Tarik</a>
+                        </div>
+                        <div class="menu-coneccash-pengaturan non-active">
+                            <a href="coneccash-setting.html" class="content-menu-coneccash ">Pengaturan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow shadow-5 card-content">
+                    <form action="" class="form" id="form-input">
+                        <div class="text-content-1">
+                            <p>Tarik</p>
+                        </div>
+                        <div class="label-input">
+                            <p>Jumlah Penarikan</p>
+                        </div>
+                        <div class="input-box-1">
+                            <input type="number" id="topup" class="input-1" placeholder="Masukkan jumlah Cash yang akan ditarik">
+                        </div>
+                        <div class="label-input">
+                            <p>Rekening</p>
+                        </div>
+                        <div class="dropdown-box-1">
+                            <select class="dropdown-1" name="select-rekening" id="select-rekening">
+                                <option value="" disabled selected>Pilih Rekening</option>
+                                <option value="1">BCA (78654321) - Andhika Sastra Gautama</option>
+                                <!-- <option value="">Two</option> -->
+                            </select>
+                        </div>
+                        <div class="col-12 btn-submit-content">
+                            <a href="#myModal" data-toggle="modal"><button class="btn btn-primary button-1 non-active">Tarik</button></a>
+                            <a href="#myModal-tambah-rekening" data-toggle="modal"><button class="btn btn-primary button-2">Tambah Rekening</button></a>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal">
+            <div class="wrapper-modal-tarik">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Buat PIN Cash</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-body">
+                    <div class="text-modal-pin">
+                        <p>Masukkan 6 angka untuk membuat PIN</p>
+                    </div> 
+                    <div class="input-box">
+                        <input type="password" class="single-input" id="1" maxlength="1">
+                        <input type="password" class="single-input" id="2" maxlength="1">
+                        <input type="password" class="single-input" id="3" maxlength="1">
+                        <input type="password" class="single-input" id="4" maxlength="1">
+                        <input type="password" class="single-input" id="5" maxlength="1">
+                        <input type="password" class="single-input" id="6" maxlength="1">
+                    </div>
+                      
+                  </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-footer">
+                    <!-- <a href="#" class="btn">Close</a> -->
+                    <div class="button-modal">
+                        <a href="#myModal-konfirmasi" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btn-rincian">Selanjutnya</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-konfirmasi">
+            <div class="wrapper-modal-tarik">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Konfirmasi PIN Cash</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-body">
+                    <div class="text-modal-pin">
+                        <p>Masukkan ulang PIN yang kamu buat</p>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" class="single-input" id="1" maxlength="1">
+                        <input type="password" class="single-input" id="2" maxlength="1">
+                        <input type="password" class="single-input" id="3" maxlength="1">
+                        <input type="password" class="single-input" id="4" maxlength="1">
+                        <input type="password" class="single-input" id="5" maxlength="1">
+                        <input type="password" class="single-input" id="6" maxlength="1">
+                    </div>
+                  </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-footer">
+                    <!-- <a href="#" class="btn">Close</a> -->
+                    <div class="button-modal">
+                        <a href="#myModal-sukses" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btn-rincian">Konfirmasi</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-sukses">
+            <div class="wrapper-modal-tarik">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Penarikan Diproses</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-body">
+                      <div class="text-modal">
+                        <p>Penarikan Cash kamu sedang diproses.</p>
+                        <p>Tunggu maksimal 1x24 jam</p>
+                      </div>
+                  </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-footer">
+                    <!-- <a href="#" class="btn">Close</a> -->
+                    <div class="button-modal">
+                        <a href="#" class="btn btn-primary btn-rincian">Oke</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-tambah-rekening">
+            <div class="wrapper-modal-tambah-rekening">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Tambah Akun Bank</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-body">
+                      <div class="wrapper-form-tambah-rekening">
+                        <form action="" class="form" id="form-tambah-rekening">
+                            <div class="label-input-bank">
+                                <p>Nama Bank</p>
+                            </div>
+                            <div class="text-input-bank">
+                                <select class="dropdown-bank" name="select-bank" id="select-bank">
+                                    <option value="" disabled selected>Pilih nama bank</option>
+                                    <option value="1">BCA</option>
+                                    <!-- <option value="">Two</option> -->
+                                </select>
+                            </div>
+                            <div class="label-input-norek">
+                                <p>Nama Bank</p>
+                            </div>
+                            <div class="wrapper-norek">
+                                <div class="text-input-norek">
+                                    <input type="number" id="no_rek" class="input-norek" placeholder="Masukkan nomor rekening">
+                                </div>
+                                <div class="button-input-norek">
+                                    <button class="btn btn-primary button-norek">Periksa</button>
+                                </div>
+                            </div>
+                            <div class="label-input-nama">
+                                <p>Nama Pemilik Rekening</p>
+                            </div>
+                            <div class="text-input-nama">
+                                <input type="text" id="nama_pemilik" class="input-nama" placeholder="">
+                            </div>
+                        </form>
+                      </div>
+                      
+                  </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-footer">
+                    <!-- <a href="#" class="btn">Close</a> -->
+                    <div class="button-modal">
+                        <a href="#" class="btn btn-primary btn-tambah non-active">Tambah</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/tb-modal.js"></script>
+
+<script>
+    // const closeBtn = document.querySelector('.btn-rincian');
+    // window.addEventListener('click', outsideClick);
+    // const modal = document.querySelector('.modal-cash');
+    
+    // closeBtn.addEventListener('click', closeModal);
+    
+    // function closeModal() {
+    //     $('#myModal').modal('hide');
+    // };
+
+
+    // function outsideClick(e) {
+    // if (e.target == modal) {
+    //     $('#myModal').modal('hide');
+    // }
+    // };
+
+    $('#myModal').on('shown', function () {
+        $(this).css('display', 'flex');
+    });
+
+    $('#myModal-konfirmasi').on('shown', function () {
+        $(this).css('display', 'flex');
+    });
+
+    $('#myModal-sukses').on('shown', function () {
+        $(this).css('display', 'flex');
+    });
+
+    $('#myModal-tambah-rekening').on('shown', function () {
+        $(this).css('display', 'flex');
+    });
+
+    
+
+</script>
+
+
+<!-- End Content-->
+
+<!-- inject:footer -->
+<!-- endinject -->

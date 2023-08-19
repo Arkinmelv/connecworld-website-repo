@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.min.js">
+
+    </script>
+</head>
+
+<body>
+    <div class='form'>
+        <form>
+            <div class='field'>
+                <label for="username">Username</label>
+                <input id="username" type="text" />
+            </div>
+            <div class='field'>
+                <label for="password">Password</label>
+                <input id="password" type="password" />
+            </div>
+            <div class='actions'>
+                <input type="submit" value="Login" disabled="disabled" />
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $('.field input').keyup(function () {
+
+            var empty = false;
+            $('.field input').each(function () {
+                if ($(this).val().length == 0) {
+                    empty = true;
+                }
+            });
+
+            if (empty) {
+                $('.actions input').attr('disabled', 'disabled');
+            } else {
+                $('.actions input').attr('disabled', false);
+            }
+        });
+    });
+</script>
+
+</html>

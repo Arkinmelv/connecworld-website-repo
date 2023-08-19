@@ -1,0 +1,541 @@
+<!-- inject:header:fixed -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo/01. Icon Uniqty 1.png" type="image/png" sizes="16x16">
+    <title>Conecworld</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    
+    <link rel="stylesheet" href="css/homepage-styles.css">
+    <link rel="stylesheet" href="css/profile-styles.css">
+    <link rel="stylesheet" href="css/login-register-styles.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/cash-point.css">
+
+    <!-- plugin -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+
+    <!-- JS -->
+	<!-- plugin -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tb-modal.js"></script>
+	<script src="js/select2.min.js"></script>
+    <script src="js/bxslider.js"></script>
+	<script src="js/jquery-ui.js"></script>
+
+    <!-- google API -->
+    <script src="https://apis.google.com/js/api:client.js"></script>
+	<!-- End JS -->
+
+</head>
+
+<body>
+    <!-- Header-->
+    <header class="shadow">
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-inner">
+                        <a href="#">
+                            <img src="./img/logo/header-logo.png" alt="image-logo" />
+                        </a>
+                        <div class="btn-navbar" id="navigation">
+                            <div class="navbar-link">
+                                <a class="navbar-link-a" href="/dist/homepage.html">
+                                    <span>Beranda</span>
+                                </a>
+                                <a class="navbar-link-a"  href="#">
+                                    <span>Eksplor</span>
+                                </a>
+                                <a class="navbar-link-a"  href="#">
+                                    <span>Tentang Kami</span>
+                                </a>
+                                <div class="nav-link-a">
+                                    <a class="navbar-link-a"  href="#">
+                                        <span>Produk</span>
+                                    </a>
+                                    <button class="button-navbar" id="btnShowProduct">
+                                        <i class="material-icons">expand_more</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header-->
+    <!-- DROPDOWN PRODUK -->
+    <div class="dropdown" >
+        <div class="bg-dropdown">
+            <div class="wrapper">
+                <div class="dropdown-show" id="show-dropdown-product">
+                    <div class="dropdown-menu">
+                        <div class="col-3 section-dropdown-product">
+                            <p class="sub-title-text-2 text-title">Produk Conecworld</p>
+                            <p class="body-text-xs text-paragraf">Kami menyediakan beragam produk yang
+                                dapat dijadikan sebagai peluang kamu
+                                dalam proses tumbuh dan berkembang. Nikmati produk
+                                kami untuk membantu kamu meningkatkan kualitas diri.
+                            </p>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon1.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Link
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="quick-bg">
+                                            <p class="text-quick-title">Segera Hadir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Bikin jangkauan relasi kamu jadi
+                                    <br>lebih luas
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon2.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Chance
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Peluang buat raih kesempatan karir
+                                    <br>dan bisnis
+                                    kamu
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon3.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Event
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Cara gampang buat promosi dan dapetin
+                                    info event
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon4.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Insight
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Tempat berbagi info, pengetahuan, dan
+                                    <br>hal
+                                    menarik
+                                    lainnya </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon5.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Quiz
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Ikuti quiz dan kumpulkan ConecPoint
+                                    Sebanyak -
+                                    banyaknya
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon6.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Expert
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Ceritakan permasalahan yang kamu alami
+                                    <br>ke
+                                    ahlinya
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon7.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Project
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Cari solusi buat permasalahan
+                                    bisnismu<br>anti
+                                    ribet
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon8.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Talk
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Tempat diskusi seru bareng Conectizen
+                                    <br> &nbsp;
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon9.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Fund
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Jalan keluar paling aman buat investasi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DROPDOWN PROFILE -->
+    <div class="dropdown">
+        <div class="bg-dropdown">
+            <div class="wrapper">
+                <div class="dropdown-show-profile" id="show-dropdown-profile">
+                    <div class="dropdown-menu">
+                        <div class="col-6 section-dropdown">
+                            <div class="inner-left-content">
+                                <div class="col-12 title-text">
+                                    <img class="dropdown-title" src="img/icon/icons-dropdown-profil.png" alt="">
+                                    <p class="body-text-xl title-text-content">MyDashboard</p>
+                                </div>
+                                <div class="border-dropdown"></div>
+                                <div class="row">
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyConecLtd</p>
+                                            <p class="body-text-xs">Kelola informasi perusahaan kamu di sini</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyChance</p>
+                                            <p class="body-text-xs">Cari mitra bisnis atau karyawan terbaikmu</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyEvent</p>
+                                            <p class="body-text-xs">Promosikan event kamu dengan mudah </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyInsight</p>
+                                            <p class="body-text-xs">Jadilah kretor dengan membuat konten menarik</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyQuiz</p>
+                                            <p class="body-text-xs">Buat survey dan dapatkan responden dengan cepat
+                                            </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyProject</p>
+                                            <p class="body-text-xs">Buat survey dan dapatkan responden dengan cepat
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyExpert</p>
+                                            <p class="body-text-xs">Jadilah konsultan untuk bantu temukan solusi</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyTalk</p>
+                                            <p class="body-text-xs">Mulai diskusi untuk mencari jawaban bersama</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyFund</p>
+                                            <p class="body-text-xs">Cari investor untuk kembangkan bisnismu</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 section-dropdown">
+                            <div class="inner-right-content">
+                                <div class="col-12 title-text">
+                                    <img src="img/icon/profile.png" alt="" class="image-profile">
+                                    <div class="title-section-menu">
+                                        <p class="body-text-sm">Andhika Sastra Gautama</p>
+                                        <span class="material-icons circle">circle</span>
+                                        <p class="body-text-sm span-color">88 200907 22233137</p>
+                                    </div>
+                                    <div class="title-section-menu div-menu">
+                                        <span class="material-icons">account_balance_wallet</span>
+                                        <p class="body-text-xs">Rp. 30.000 ConecCash</p>
+                                        <span class="material-icons">stars</span>
+                                        <p class="body-text-xs">100 ConecPoint</p>
+                                        <span class="material-icons">local_fire_department</span>
+                                        <p class="body-text-xs">16 ConecXP</p>
+                                    </div>
+                                </div>
+                                <div class="border-dropdown">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 section-menu">
+                                        <div class="menu-content-dropdown">
+                                            <span class="material-icons top-image">people</span>
+                                            <p class="body-text-md">Profile Saya</p>
+                                            <span class="material-icons">receipt_long</span>
+                                            <p class="body-text-md">Daftar Transaksi</p>
+                                            <span class="material-icons">redeem</span>
+                                            <p class="body-text-md">Referal</p>
+                                            <span class="material-icons">card_membership</span>
+                                            <p class="body-text-md">Membership</p>
+                                            <span class="material-icons">qr_code_scanner</span>
+                                            <p class="body-text-md">Scanner</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 section-menu">
+                                        <div class="menu-content-dropdown">
+                                            <span class="material-icons top-image">notifications</span>
+                                            <p class="body-text-md">Pemberitahuan</p>
+                                            <span class="material-icons">settings_applications</span>
+                                            <p class="body-text-md">Pengaturan</p>
+                                            <span class="material-icons">power_settings_new</span>
+                                            <p class="body-text-md">Keluar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END DROPDOWN -->
+<!-- endinject -->
+
+<!-- Content-->
+<div class="wrapper">
+    <div class="alert">
+        <span class="material-icons alert-icon">fiber_manual_record</span>
+        <p class="alert-text">Hint Message</p>
+    </div>
+    <div class="alert alert-error">
+        <span class="material-icons alert-icon">error</span>
+        <p class="body-text-xs alert-text">Error Message</p>
+    </div>
+    <div class="alert alert-caution">
+        <span class="material-icons alert-icon">warning</span>
+        <p class="body-text-xs alert-text">Coution Message</p>
+    </div>
+    <div class="alert alert-succes">
+        <span class="material-icons alert-icon">check_circle</span>
+        <p class="body-text-xs alert-text">Succes Message</p>
+    </div>
+</div>
+<!-- End Content-->
+
+<!-- inject:footer -->
+<!-- Footer-->
+		<footer>
+			<div class="wrapper">
+				<div class="footer">
+					<div class="inner-footer">
+						<div class="inner-left-content">
+							<div class="image">
+								<img src="./img/logo/05. Uniqty 2.png" alt="logo-connec" />
+							</div>
+							<div class="text-content-left">
+								<p class="text-title">Alamat</p>
+								<p class="text-body">Conecworld Center (AJBS)<br>
+									Bloc. D No. GF-D3.11 <br>
+									Jalan Ratna 14, Ngagel, Wonokromo, 60246, Surabaya, <br>
+									Jawa Timur, Indonesia
+								</p>
+							</div>
+						<div class="text-content-left">
+							<p class="text-title">Kontak Kami</p>
+		
+							<div class="image-content">
+								<img src="./img/icon/message.png" class="msg" alt="mail">
+								<p>hi@connecworld.com</p>
+							</div>
+							<div class="image-content">
+								<img src="./img/icon/telephone.png" alt="telephone">
+								<p>08111111</p>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="inner-mid-content">
+						<div>
+							<p>Produk</p>
+						</div>
+						<ul>
+							<li><a href="">U-Link</a></li>
+							<li><a href="">U-Chancee</a></li>
+							<li><a href="">U-Event</a></li>
+							<li><a href="">U-Insight</a></li>
+							<li><a href="">U-Quiz</a></li>
+							<li><a href="">U-Expert</a></li>
+							<li><a href="">U-Project</a></li>
+							<li><a href="">U-Talk</a></li>
+							<li><a href="" class="hover:text-Shade3Color3">U-Fund</a></li>
+						</ul>
+					</div>
+					<div class="inner-mid-content">
+						<div>
+							<p>Perusahaan</p>
+						</div>
+						<ul>
+							<li><a href="">Tentang Kami</a>
+							</li>
+							<li><a href="">Kerja Sama</a></li>
+							<li><a href="">Karir</a></li>
+						</ul>
+					</div>
+					<div class="inner-mid-content">
+						<div>
+							<p>Peraturan</p>
+						</div>
+						<ul>
+							<li><a href="">Syarat & Ketentuan</a></li>
+							<li><a href="">Kebijakan Privasi</a></li>
+							<li><a href="">Bantuan</a></li>
+							<li><a href="">FAQ</a></li>
+						</ul>
+					</div>
+
+					<div class="inner-right-content">
+						<p>Media Sosial</p>
+						<div class="image-wrap">
+							<a href=""><img src="./img/icon/fb.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/ig.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/yt.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/tt.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/tw.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/linkedin.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/spotify 1.png" class="image-src" alt=""></a>
+						</div>
+						<p>Unduh Aplikasi Connecworld Gratis</p>
+						<div class="image-wrap">
+							<a href=""><img src="./img/icon/playstore.png" class="image-src"  alt=""></a>
+							<a href=""><img src="./img/icon/applke.png" class="image-src"  alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="border-footer">
+				</div>
+				<div class="copyright">
+						<p>©2021 Conecworld Hak Cipta Dilindungi</p>
+				</div>
+		</div>	
+		</div>
+		</footer>
+	</body>
+
+	<!-- JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/homepage.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/login.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
+
+	<!-- plugin -->
+	<script src="js/tb-modal.js"></script>
+	<script src="js/select2.min.js"></script>
+	
+	<!-- End JS -->
+	
+    <script src="js/bxslider.js"></script>
+	<script src="js/jquery-ui.js"></script>
+</html>
+<!-- End Footer-->
+<!-- endinject -->

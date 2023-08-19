@@ -1,0 +1,1139 @@
+<!-- inject:header:profile -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo/01. Icon Uniqty 1.png" type="image/png" sizes="16x16">
+    <title>Conecworld</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/material-icons.css" />
+    <link rel="stylesheet" href="css/select2.min.css">
+
+
+    <link rel="stylesheet" href="css/homepage-styles.css">
+    <link rel="stylesheet" href="css/profile-styles.css">
+    <link rel="stylesheet" href="css/login-register-styles.css">
+    <link rel="stylesheet" href="css/cash-point.css">
+
+    <!-- Plugin -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <!-- End CSS -->
+
+    <!-- JS -->
+	<!-- plugin -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tb-modal.js"></script>
+	<script src="js/select2.min.js"></script>
+    <script src="js/bxslider.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<!-- End JS -->
+</head>
+
+<body>
+    <header class="shadow">
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-inner">
+                        <a href="#">
+                            <img src="./img/logo/header-logo.png" alt="image-logo" />
+                        </a>
+                        <div class="btn-navbar" id="navigation">
+                            <div class="navbar-link">
+                                <a class="navbar-link-a" href="/dist/homepage.html">
+                                    <span>Beranda</span>
+                                </a>
+                                <a class="navbar-link-a" href="#">
+                                    <span>Eksplor</span>
+                                </a>
+                                <a class="navbar-link-a" href="#">
+                                    <span>Tentang Kami</span>
+                                </a>
+                                <div class="nav-link-a">
+                                    <a class="navbar-link-a" href="#">
+                                        <span>Produk</span>
+                                    </a>
+                                    <button class="button-navbar" id="btnShowProduct">
+                                        <i class="material-icons">expand_more</i>
+                                    </button>
+                                </div>
+                                <div class="nav-link-prof">
+                                    <div class="image-profile">
+                                        <img src="./img/icon/profile.png" alt="">
+                                    </div>
+                                    <a class="navbar-link-a" href="#">
+                                        <span>Arkin Melvian Dwiansyah</span>
+                                    </a>
+                                    <button class="button-navbar" id="btnShowProfile">
+                                        <i class="material-icons">expand_more</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- DROPDOWN PRODUK -->
+    <div class="dropdown" >
+        <div class="bg-dropdown">
+            <div class="wrapper">
+                <div class="dropdown-show" id="show-dropdown-product">
+                    <div class="dropdown-menu">
+                        <div class="col-3 section-dropdown-product">
+                            <p class="sub-title-text-2 text-title">Produk Conecworld</p>
+                            <p class="body-text-xs text-paragraf">Kami menyediakan beragam produk yang
+                                dapat dijadikan sebagai peluang kamu
+                                dalam proses tumbuh dan berkembang. Nikmati produk
+                                kami untuk membantu kamu meningkatkan kualitas diri.
+                            </p>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon1.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Link
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="quick-bg">
+                                            <p class="text-quick-title">Segera Hadir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Bikin jangkauan relasi kamu jadi
+                                    <br>lebih luas
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon2.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Chance
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Peluang buat raih kesempatan karir
+                                    <br>dan bisnis
+                                    kamu
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon3.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Event
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Cara gampang buat promosi dan dapetin
+                                    info event
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon4.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Insight
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Tempat berbagi info, pengetahuan, dan
+                                    <br>hal
+                                    menarik
+                                    lainnya </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon5.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Quiz
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Ikuti quiz dan kumpulkan ConecPoint
+                                    Sebanyak -
+                                    banyaknya
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon6.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Expert
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Ceritakan permasalahan yang kamu alami
+                                    <br>ke
+                                    ahlinya
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3 section-dropdown-product">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon7.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Project
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Cari solusi buat permasalahan
+                                    bisnismu<br>anti
+                                    ribet
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon8.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Talk
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Tempat diskusi seru bareng Conectizen
+                                    <br> &nbsp;
+                                </p>
+                            </div>
+                            <div class="dropdown-content-menu">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="./img/icon/mini-conec-icon9.png" alt="">
+                                        <p class="body-text-xl semi-bold title-text-dropdown"><span
+                                                class="span-color">U-</span>Fund
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-6">
+                                            <div class="quick-bg">
+                                                <p class="text-quick-title">Segera Hadir</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="body-text-xs text-content-title">Jalan keluar paling aman buat investasi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DROPDOWN PROFILE -->
+    <div class="dropdown">
+        <div class="bg-dropdown">
+            <div class="wrapper">
+                <div class="dropdown-show-profile" id="show-dropdown-profile">
+                    <div class="dropdown-menu">
+                        <div class="col-6 section-dropdown">
+                            <div class="inner-left-content">
+                                <div class="col-12 title-text">
+                                    <img class="dropdown-title" src="img/icon/icons-dropdown-profil.png" alt="">
+                                    <p class="body-text-xl title-text-content">MyDashboard</p>
+                                </div>
+                                <div class="border-dropdown"></div>
+                                <div class="row">
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyConecLtd</p>
+                                            <p class="body-text-xs">Kelola informasi perusahaan kamu di sini</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyChance</p>
+                                            <p class="body-text-xs">Cari mitra bisnis atau karyawan terbaikmu</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyEvent</p>
+                                            <p class="body-text-xs">Promosikan event kamu dengan mudah </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyInsight</p>
+                                            <p class="body-text-xs">Jadilah kretor dengan membuat konten menarik</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyQuiz</p>
+                                            <p class="body-text-xs">Buat survey dan dapatkan responden dengan cepat
+                                            </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyProject</p>
+                                            <p class="body-text-xs">Buat survey dan dapatkan responden dengan cepat
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 menu-content-dropdown">
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyExpert</p>
+                                            <p class="body-text-xs">Jadilah konsultan untuk bantu temukan solusi</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyTalk</p>
+                                            <p class="body-text-xs">Mulai diskusi untuk mencari jawaban bersama</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="body-text-sm span-color">MyFund</p>
+                                            <p class="body-text-xs">Cari investor untuk kembangkan bisnismu</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 section-dropdown">
+                            <div class="inner-right-content">
+                                <div class="col-12 title-text">
+                                    <img src="img/icon/profile.png" alt="" class="image-profile">
+                                    <div class="title-section-menu">
+                                        <p class="body-text-sm">Andhika Sastra Gautama</p>
+                                        <span class="material-icons circle">circle</span>
+                                        <p class="body-text-sm span-color">88 200907 22233137</p>
+                                    </div>
+                                    <div class="title-section-menu div-menu">
+                                        <span class="material-icons">account_balance_wallet</span>
+                                        <p class="body-text-xs">Rp. 30.000 ConecCash</p>
+                                        <span class="material-icons">stars</span>
+                                        <p class="body-text-xs">100 ConecPoint</p>
+                                        <span class="material-icons">local_fire_department</span>
+                                        <p class="body-text-xs">16 ConecXP</p>
+                                    </div>
+                                </div>
+                                <div class="border-dropdown">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 section-menu">
+                                        <div class="menu-content-dropdown">
+                                            <span class="material-icons top-image">people</span>
+                                            <p class="body-text-md">Profile Saya</p>
+                                            <span class="material-icons">receipt_long</span>
+                                            <p class="body-text-md">Daftar Transaksi</p>
+                                            <span class="material-icons">redeem</span>
+                                            <p class="body-text-md">Referal</p>
+                                            <span class="material-icons">card_membership</span>
+                                            <p class="body-text-md">Membership</p>
+                                            <span class="material-icons">qr_code_scanner</span>
+                                            <p class="body-text-md">Scanner</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 section-menu">
+                                        <div class="menu-content-dropdown">
+                                            <span class="material-icons top-image">notifications</span>
+                                            <p class="body-text-md">Pemberitahuan</p>
+                                            <span class="material-icons">settings_applications</span>
+                                            <p class="body-text-md">Pengaturan</p>
+                                            <span class="material-icons">power_settings_new</span>
+                                            <p class="body-text-md">Keluar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header-->
+    <!-- End Content-->
+
+<!-- endinject -->
+
+<!-- Content-->
+<section>
+    <div class="profile">
+        <div class="banner">
+            <div class="image-banner">
+                <img src="img/other-image/img-profile-page/Banner Profil.png" alt="img-banner">
+            </div>
+            <div class="profile-edit-banner">
+                <div class="banner-edit">
+                    <a href="#modalProfile-banner" data-toggle="modal" class="material-icons edit-banner">edit</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-profile">
+            <div class="wrapper">
+                <div class="profile-page">
+                    <div class="profile-content">
+                        <div class="profile-left fl">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="content-card-1 shadow shadow-9-profile">
+                                        <div class="img-profile-id">
+                                            <div class="img-profile-content">
+                                                <img src="img/other-image/img-profile-page/Group 1567 (1).png" alt="">
+                                            </div>
+                                            <div class="icon-edit">
+                                                <a href="#modalProfile-infoumum" data-toggle="modal"
+                                                    class="material-icons pen">edit</a>
+                                            </div>
+                                        </div>
+                                        <p class="body-text-lg span-color username-id">@andhikasg</p>
+                                        <p class="body-text-lg username-title-id">Andhika Sastra Gautama</p>
+                                        <p class="body-text-sm username-title-id">UI/UX Designer</p>
+                                        <p class="body-text-md username-title-id">Bojonegoro, Jawa Timur, <br>Indonesia
+                                        </p>
+                                        <div class="born">
+                                            <p class="body-text-md">Laki - Laki</p>
+                                            <i class="material-icons">circle</i>
+                                            <p class="body-text-md">06 Juni 2000</p>
+                                        </div>
+                                        <div class="id">
+                                            <p class="body-text-xl id-title">ID</p>
+                                            <p class="sub-title-text-2 id-number span-color-white" id="sample">88 200907
+                                                22233137</p>
+                                            <a href="#" class="material-icons id-icon span-color-white"
+                                                onclick="CopyToClipboard('sample');return false;">content_copy</a>
+                                        </div>
+                                        <div class="border-profile"></div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">group</i>
+                                            <a href="profile-follower.html" class="body-text-md text-content-bio">200+
+                                                Pengikut</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">person_add</i>
+                                            <a href="profile-following.html" class="body-text-md text-content-bio">200+
+                                                Diikuti</a>
+                                        </div>
+                                        <div class="border-profile"></div>
+                                        <div class="content-bio">
+                                            <i
+                                                class="material-icons span-color icon-content-bio">account_balance_wallet</i>
+                                            <a href="#" class="body-text-md text-content-bio">Rp. 1.000.000 Cash</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">stars</i>
+                                            <a href="#" class="body-text-md text-content-bio">20.000 Point</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <i
+                                                class="material-icons span-color icon-content-bio">local_fire_department</i>
+                                            <a href="#" class="body-text-md text-content-bio">A1 - 200 XP</a>
+                                        </div>
+                                        <div class="border-profile"></div>
+                                        <div class="content-bio">
+                                            <i class="material-icons span-color icon-content-bio">person</i>
+                                            <a href="#" class="body-text-md text-content-bio">Informasi Pribadi</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-1.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyConecLtd</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-2.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyChance</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-3.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyEvent</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-4.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyInsight</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-5.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyProject</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-6.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyQuiz</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-7.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyExpert</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-8.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyTalk</a>
+                                        </div>
+                                        <div class="content-bio">
+                                            <img src="img/other-image/img-profile-page/icon-profile-side-9.png" alt=""
+                                                class="span-color icon-content-bio">
+                                            <a href="#" class="body-text-md text-content-bio">MyFund</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-right fr">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="card-profile-bank-more shadow shadow-6">
+                                        <div class="text-title-profile">
+                                            <div class="flex">
+                                                <a href="profile.html" class="material-icons mr-20">arrow_back</a>
+                                                <p class="sub-title-text-2">Akun Bank</p>
+                                                <a href="#" class="material-icons ml-8">lock</a>
+                                            </div>
+                                            <a href="#modalProfile-addBank" data-toggle="modal"
+                                                class="material-icons add">add</a>
+                                        </div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#modalProfile-profileDelete" data-toggle="modal"
+                                                    class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="border-bank"></div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#modalProfile-profileDelete" data-toggle="modal"
+                                                    class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="border-bank"></div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#modalProfile-profileDelete" data-toggle="modal"
+                                                    class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="border-bank"></div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#" class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="border-bank"></div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#" class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="border-bank"></div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#" class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="border-bank"></div>
+                                        <div class="content-bank">
+                                            <div class="image-content-bank">
+                                                <img src="img/other-image/img-profile-page/icon-profile-3.png" alt="">
+                                            </div>
+                                            <div class="text-content-bank">
+                                                <p class="body-text-xl semi-bold">Bank Central Asia (BCA)</p>
+                                                <div class="flex-bank-content">
+                                                    <p class="body-text-xs p-text-content-bank">Andhika Sastra Gautama
+                                                    </p>
+                                                    <p class="body-text-xs p-text-content-bank">Okt 2020 - Okt 2021</p>
+                                                </div>
+                                                <p class="body-text-xs text-content-place">78654321</p>
+                                            </div>
+                                            <div class="edit-icon">
+                                                <a href="#" class="material-icons-round edit-icon-bank">delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Content -->
+
+<!-- MODAL -->
+
+<!-- 2. MODAL PROFILE ALERT SUCCES  -->
+<div id="modalProfile-succes" class="modal-profile-success">
+    <div class="modal-profilesuccess-content">
+        <div class="modal-profilesuccess-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Kelengkapan Data Profile</p>
+                <span class="close-card-profilesuccess material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <div class="padding-body">
+                    <div class="image-body">
+                        <img src="img/other-image/img-profile-page/profile-succes-modal.png" alt="image-modal-succes">
+                    </div>
+                    <div class="text-body">
+                        <h5 class="span-color center mt-16">Selamat kamu mendapatkan +5 ConecPoint.</h5>
+                        <p class="center mt-16">Kelengkapan profilmu sudah 90%. Yuk lengkapi profilmu untuk membantu
+                            kami lebih mengenal kamu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <button class="btn btn-primary btn-full" data-dismiss="modal">Oke</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 3. MODAL PROFILE INFO UMUM -->
+<div id="modalProfile-infoumum" class="modal-profile-infoumum">
+    <div class="modal-content-activity">
+        <div class="modal-card-activity">
+            <div class="col-12 modal-header">
+                <p class="sub-title-text-2 modal-header-text">Edit Informasi Umum</p>
+                <span class="close-card-activity material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="col-12 modal-border"></div>
+            <div class="col-12 modal-content">
+                <img src="img/other-image/img-profile-page/modal-image-profile.png" alt="">
+            </div>
+            <form action="" class="form">
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Nama Lengkap*</span>
+                        <input type="text" id="username" placeholder="Masukan Nama Lengkap"
+                            value="Andhika Sastra Gautama">
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control " id="form-control-1">
+                        <span class="form-label">Username*</span>
+                        <input type="text" id="username" placeholder="Masukan Nama Lengkap" value="andhikasg">
+
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section-born">
+                    <div class="modal-form-section-born-2">
+                        <div class="form-control form-sm" id="form-control-1">
+                            <span class="form-label">Tempat Lahir</span>
+                            <input type="text" id="username" placeholder="Masukkan tempat lahir ">
+                        </div>
+                        <div class="form-control form-sm" id="form-control-4">
+                            <span class="form-label">Tanggal Lahir</span>
+                            <div class="inner-form left-icon">
+                                <span>
+                                    <i class="material-icons">calendar_today</i>
+                                </span>
+                                <input class="input-left-icon" type="text" placeholder="06/06/2000" id="datepicker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Jenis Kelamin</span>
+                        <div class="dropdown-box-1">
+                            <select class="dropdown-1" name="select-rekening" id="select-gender" style="color: #131313">
+                                <option value="" disabled selected>Pilih jenis kelamin </option>
+                                <option value="1">Laki - laki</option>
+                                <option value="2">Perempuan</option>
+                            </select>
+                            <i class="material-icons">expand_more</i>
+                        </div>
+                        <!-- <input type="text" id="username" placeholder="Pilih jenis kelamin"> -->
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Negara</span>
+                        <input type="text" id="username" placeholder="Pilih negara">
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Provinsi</span>
+                        <input type="text" id="username" placeholder="Pilih provinsi">
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-form-section">
+                    <div class="form-control" id="form-control-1">
+                        <span class="form-label">Kota</span>
+                        <input type="text" id="username" placeholder="Pilih kota">
+
+                    </div>
+                    <div class="col-12 checkbox">
+                        <div class="checkbox-icon">
+                            <input type="checkbox" id="valid1" name="valid1" value="valid1">
+                        </div>
+                        <div class="checkbox-title">
+                            <label for="vehicle1" class="body-text-xs">Tampilkan tempat tanggal lahir sebagai
+                                publik</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 modal-border-footer"></div>
+                <div class="col-12 btn-submit-modal">
+                    <button class="btn btn-primary">Daftar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- one div -->
+<!-- 4. MODAL PROFILE BANNER EDIT/ADD -->
+<div id="modalProfile-banner" class="modal-profile-banner">
+    <!-- Modal content -->
+    <div class="modal-banner-content">
+        <div class="modal-banner-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Gambar Sampul</p>
+                <span class="close-card-banner material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <div class="add-image">
+                    <a href="#modalProfile-delete" data-toggle="modal" class="btn btn-secondary">Hapus Gambar</a>
+                    <a href="#" class="btn btn-primary">Tambah Gambar</a>
+                </div>
+                <button class="btn btn-primary" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 5. MODAL PROFILE BANNER DELETE -->
+<div id="modalProfile-delete" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Edit Gambar Sampul</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, gambar sampul pada profil kamu akan kosong</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Simpan</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end div-->
+
+<!-- ===============================================-->
+<!-- Modal Profile Page BANK Create ============-->
+<!-- ===============================================-->
+<!-- ADD -->
+<div id="modalProfile-addBank" class="modal-profile-bank">
+    <!-- Modal content -->
+    <div class="modal-bank-content">
+        <div class="modal-bank-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Tambah Akun Bank</p>
+                <span class="close-card-bank material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body" id="buttonDisableInsight">
+                <!-- Judul Perusahaan -->
+                <div class="form mt-8">
+                    <div class="form-control">
+                        <label for="label-bank" class="form-label">
+                            Nama Bank*
+                            <select class="bank" id="label-bank" name="state">
+                                <option class="select-placeholder" value="" disabled selected>Pilih nama bank</option>
+                                <option value="MY">BCA</option>
+                                <option value="AST">BRI</option>
+                                <option value="UQT">MANDIRI</option>
+                                <option value="AJ">SEABANK</option>
+                                <option value="AS">FLIP</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-wrapper">
+                    <div class="form mt-8">
+                        <div class="form-control form-input-three" id="form-control-1">
+                            <span class="form-label filled-three">Nomor Rekening*</span>
+                            <input type="number" placeholder="Masukkan nomor rekening">
+                        </div>
+                    </div>
+                    <div class="button-check">
+                        <button class="btn btn-primary btn-sm button-check-btn">Periksa</button>
+                    </div>
+                </div>
+
+                <div class="form mt-8">
+                    <div class="form-control form-input-four" id="form-control-1">
+                        <span class="form-label filled-four">Nama Pemilik Rekening*</span>
+                        <input type="text" id="link" placeholder="Masukkan nama pemilik rekening">
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <div class="btn-submit-register">
+                    <button type="submit" disabled="disabled" class="btn">Tambah</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- delete-->
+<div id="modalProfile-profileDelete" class="modal-profile-delete">
+    <!-- Modal content -->
+    <div class="modal-delete-content">
+        <div class="modal-delete-card">
+            <!-- header -->
+            <div class="modal-header">
+                <p class="sub-title-text-2">Hapus Akun Bank?</p>
+                <span class="close-card-delete material-icons" data-dismiss="modal">clear</span>
+            </div>
+            <div class="border"></div>
+            <!-- body -->
+            <div class="modal-body">
+                <p class="body-text-xxl">Jika dihapus, akun Bank Central Asian (BCA) atas nama Andhika Sastra Gautama
+                    akan hilang pada halaman profil kamu.</p>
+            </div>
+            <div class="border"></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-primary">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===============================================-->
+<!-- END Modal Profile Page BANK ===================-->
+<!-- ===============================================-->
+
+<!-- ALERT COPY -->
+<!-- ALERT -->
+<div id="alertNotifCopy" class="modal-alert">
+    <!-- Modal content -->
+    <div class="modal-alert-content">
+        <div class="alert-card">
+            <div class="alert-icon">
+                <i class="material-icons span-color-white mr-8">check_circle</i>
+                <p class="span-color-white">Berhasil Menyalin Id</p>
+            </div>
+            <span class="close-card-icon material-icons span-color-white" data-dismiss="modal">clear</span>
+        </div>
+    </div>
+</div>
+<!-- end Alert -->
+<script>
+    $('.bank').select2();
+    $(".select-bank").select2({
+        maximumSelectionLength: 10,
+        
+    });
+</script>
+<!-- inject:footer -->
+<!-- Footer-->
+		<footer>
+			<div class="wrapper">
+				<div class="footer">
+					<div class="inner-footer">
+						<div class="inner-left-content">
+							<div class="image">
+								<img src="./img/logo/05. Uniqty 2.png" alt="logo-connec" />
+							</div>
+							<div class="text-content-left">
+								<p class="text-title">Alamat</p>
+								<p class="text-body">Conecworld Center (AJBS)<br>
+									Bloc. D No. GF-D3.11 <br>
+									Jalan Ratna 14, Ngagel, Wonokromo, 60246, Surabaya, <br>
+									Jawa Timur, Indonesia
+								</p>
+							</div>
+						<div class="text-content-left">
+							<p class="text-title">Kontak Kami</p>
+		
+							<div class="image-content">
+								<img src="./img/icon/message.png" class="msg" alt="mail">
+								<p>hi@connecworld.com</p>
+							</div>
+							<div class="image-content">
+								<img src="./img/icon/telephone.png" alt="telephone">
+								<p>08111111</p>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="inner-mid-content">
+						<div>
+							<p>Produk</p>
+						</div>
+						<ul>
+							<li><a href="">U-Link</a></li>
+							<li><a href="">U-Chancee</a></li>
+							<li><a href="">U-Event</a></li>
+							<li><a href="">U-Insight</a></li>
+							<li><a href="">U-Quiz</a></li>
+							<li><a href="">U-Expert</a></li>
+							<li><a href="">U-Project</a></li>
+							<li><a href="">U-Talk</a></li>
+							<li><a href="" class="hover:text-Shade3Color3">U-Fund</a></li>
+						</ul>
+					</div>
+					<div class="inner-mid-content">
+						<div>
+							<p>Perusahaan</p>
+						</div>
+						<ul>
+							<li><a href="">Tentang Kami</a>
+							</li>
+							<li><a href="">Kerja Sama</a></li>
+							<li><a href="">Karir</a></li>
+						</ul>
+					</div>
+					<div class="inner-mid-content">
+						<div>
+							<p>Peraturan</p>
+						</div>
+						<ul>
+							<li><a href="">Syarat & Ketentuan</a></li>
+							<li><a href="">Kebijakan Privasi</a></li>
+							<li><a href="">Bantuan</a></li>
+							<li><a href="">FAQ</a></li>
+						</ul>
+					</div>
+
+					<div class="inner-right-content">
+						<p>Media Sosial</p>
+						<div class="image-wrap">
+							<a href=""><img src="./img/icon/fb.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/ig.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/yt.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/tt.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/tw.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/linkedin.png" class="image-src" alt=""></a>
+							<a href=""><img src="./img/icon/spotify 1.png" class="image-src" alt=""></a>
+						</div>
+						<p>Unduh Aplikasi Connecworld Gratis</p>
+						<div class="image-wrap">
+							<a href=""><img src="./img/icon/playstore.png" class="image-src"  alt=""></a>
+							<a href=""><img src="./img/icon/applke.png" class="image-src"  alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="border-footer">
+				</div>
+				<div class="copyright">
+						<p>©2021 Conecworld Hak Cipta Dilindungi</p>
+				</div>
+		</div>	
+		</div>
+		</footer>
+	</body>
+
+	<!-- JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/homepage.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/login.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
+
+	<!-- plugin -->
+	<script src="js/tb-modal.js"></script>
+	<script src="js/select2.min.js"></script>
+	
+	<!-- End JS -->
+	
+    <script src="js/bxslider.js"></script>
+	<script src="js/jquery-ui.js"></script>
+</html>
+<!-- End Footer-->
+<!-- endinject -->

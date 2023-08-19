@@ -1,0 +1,287 @@
+<!-- inject:header:profile -->
+<!-- endinject -->
+<!-- inject:dropdown -->
+<!-- endinject -->
+<!-- Content-->
+
+<section>
+    <div class="wrapper">
+        <div class="wrapper-coneccash">
+            <div class="text-title">
+                <h5 class="span-text">Cash</h5>        
+            </div>
+            <div class="shadow shadow-5 card-awal">
+                <div class="text-1">
+                    <p>Lakukan aktivasi Cash kamu untuk dapat bertansaksi dengan Cash</p>
+                </div>
+                <div class="text-2">
+                    <p>Siapkan terlebih dahulu Kartu Identitas anda </p>
+                </div>
+                <div class="btn-submit-aktif_cash">
+                    <a href="#myModal" data-toggle="modal" class="btn btn-primary button-aktif_cash">Aktifkan Cash</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal" id="myModal">
+            <div class="wrapper-modal-awal-verif">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Aktivasi Cash</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                <div class="modal-body">
+                    <div class="text-modal">
+                        <p>Selesaikan syarat dibawah ini untuk melakukan aktivasi cash</p>
+                    </div>
+                    <div class="shadow shadow-5 box-verif">
+                        <div id="non-verif" class="icon-verif">
+                            <img src="img/icon/icon_x.png">
+                        </div>
+                        <div id="verif" class="icon-verif d-none">
+                            <img src="img/icon/icon_y.png">
+                        </div>
+                        <div class="label-verif">
+                            <p>Verifikasi Email</p>
+                        </div>
+                        <div class="button-verif">
+                            <a href="#myModal-email" data-toggle="modal" class="btn btn-secondary btn-verif-email">Verifikasi Email</a>
+                        </div>
+                    </div>
+                    <div class="shadow shadow-5 box-verif">
+                        <div class="icon-verif">
+                            <img src="img/icon/icon_x.png">
+                        </div>
+                        <div class="label-verif">
+                            <p>Verifikasi data diri dengan KTP</p>
+                        </div>
+                        <div class="button-verif">
+                            <button data-toggle="modal" class="btn btn-secondary btn-verif-data_diri" data-dismiss="modal" disabled="disabled">Verifikasi Data Diri</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-2">
+            <div class="wrapper-modal-awal">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Aktivasi Cash</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                <div class="modal-body">
+                    <div class="text-modal">
+                        <p>Selesaikan syarat dibawah ini untuk melakukan aktivasi cash</p>
+                    </div>
+                    <div class="shadow shadow-5 box-verif ">
+                        <div class="icon-verif">
+                            <img src="img/icon/icon_y.png">
+                        </div>
+                        <div class="label-verif">
+                            <p>Verifikasi Email</p>
+                        </div>
+                    </div>
+                    <div class="shadow shadow-5 box-verif">
+                        <div class="icon-verif">
+                            <img src="img/icon/icon_x.png">
+                        </div>
+                        <div class="label-verif">
+                            <p>Verifikasi data diri dengan KTP</p>
+                        </div>
+                        <div class="button-verif">
+                            <a href="#myModal-verif" data-toggle="modal" class="btn btn-secondary btn-verif-data_diri" data-dismiss="modal">Verifikasi Data Diri</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-verif">
+            <div class="wrapper-modal-awal">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Aktivasi Cash</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                <div class="modal-body">
+                    <div class="text-modal">
+                        <p>Kartu Tanda Penduduk (KTP)</p>
+                        <span class="subtext">Unggah Kartu tanda penduduk digunakan untuk memastikan kamu adalah warga negara yang terdaftar</span>
+                    </div>
+                    <div class="shadow shadow-5 box-verif-data-diri">
+                        <div class="box-upload">
+                            <i class="material-icons">photo_camera</i>
+                            <p>Tambah Gambar</p>
+                        </div>
+                        <div class="icon_foto">
+                            <img src="img/icon/contoh_gambar_ktp.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="text-modal">
+                        <p>Foto Selfie dengan KTP</p>
+                        <span class="subtext">Arahkan wajah kamu ke kamera dengan memegang KTP. Pastikan wajah dan KTP kamu terlihat jelas</span>
+                    </div>
+                    <div class="shadow shadow-5 box-verif-data-diri">
+                        <div class="box-upload">
+                            <i class="material-icons">photo_camera</i>
+                            <p>Ambil Foto</p>
+                        </div>
+                        <div class="icon_foto-2">
+                            <img src="img/icon/contoh_verif_selfie.png" alt="">
+                        </div>
+                    </div>
+                    <div class="checkbox-modal">
+                        <input type="checkbox" id="setuju" name="setuju" class="input_checkbox" value="">
+                        <label for="setuju"> Saya menyetujui <a href=""><span class="green-text">Syarat & Ketentuan</span></a> serta <a href=""><span class="green-text">Kebijakan Privasi</span></a> yang berlaku </label>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                <div class="modal-footer">
+                    <div class="button_footer">
+                        <a href="#myModal-cash-activation" data-toggle="modal"><button class="btn btn-primary button-1 non-active">Tarik</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-cash-activation">
+            <div class="wrapper-modal-cash-activation">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Aktivasi Cash</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                <div class="modal-body">
+                    <div class="text-modal">
+                        <p>Aktivasi Cash kamu sedang diproses. Tunggu maksimal 1x24 jam</p>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                <div class="modal-footer">
+                    <div class="button-footer">
+                        <button class="btn btn-primary button-1 non-active">Oke</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal-email">
+            <div class="wrapper-modal-tarik">
+                <div class="modal-header">
+                    <div class="label-header">
+                        <p>Verifikasi Email</p>
+                    </div>
+                    <div class="icon-close">
+                        <a class="close" data-dismiss="modal"><i class="material-icons">close</i></a>
+                    </div>
+                </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-body">
+                      <div class="text-modal">
+                        <p>Penarikan Cash kamu sedang diproses.</p>
+                        <p>Tunggu maksimal 1x24 jam</p>
+                      </div>
+                  </div>
+                <div class="border-coneccash"></div>
+                  <div class="modal-footer">
+                    <!-- <a href="#" class="btn">Close</a> -->
+                    <div class="button-modal">
+                        <a href="" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btn-rincian">Oke</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/tb-modal.js"></script>
+
+<script>
+    // const verif_email_button = document.querySelector('.btn-verif-email');
+    // const verif_data_diri_button = document.querySelector('.btn-verif-data_diri');
+    
+    // // window.addEventListener('click', outsideClick);
+    // const modal = document.querySelector('.modal');
+    
+    // verif_email_button.addEventListener('click', verif_email);
+    // verif_data_diri_button.addEventListener('click', verif_data_diri);
+    
+    // function verif_email() {
+    //     console.log("ini button verif email");
+    //     // $('#myModal').modal('hide');
+    //     // $('#myModal-verif').modal('hide');
+    // };
+
+    // function verif_data_diri() {
+    //     console.log("ini button verif data diri");
+    //     // $('#myModal').modal('hide');
+    //     // $('#myModal-2').modal('hide');
+    // };
+
+
+    // function outsideClick(e) {
+    // if (e.target == modal) {
+    //     $('#myModal').modal('hide');
+    // }
+    // };
+
+    $(".btn-verif-data_diri").click(function(){
+        console.log("asdasdasd");
+        $('#myModal-verif').modal();
+        $('#myModal-verif').css('display', 'flex');
+    })
+
+    $('#myModal').on('shown', function () {
+        $(this).css('display', 'flex');
+    });
+
+    $('#myModal-2').on('shown', function () {
+        $(this).css('display', 'flex');
+    });
+
+    $('#myModal-verif').on('shown', function () {
+        console.log("modal verif")
+        $(this).css('display', 'flex');
+    });
+
+    $('#myModal-cash-activation').on('shown', function () {
+        $(this).css('display', 'flex');
+    })
+
+    $('#myModal-email').on('shown', function () {
+        $(this).css('display', 'flex');
+    })
+
+    $(".btn-verif-email").click(function(){
+        console.log("asdasdasd");
+        $("#non-verif").addClass("d-none");
+        $("#verif").removeClass("d-none");
+        $(".btn-verif-data_diri").removeAttr("disabled");
+    })
+</script>
+
+
+<!-- End Content-->
+
+<!-- inject:footer -->
+<!-- endinject -->

@@ -1,0 +1,150 @@
+<!-- inject:header:fixed -->
+<!-- endinject -->
+
+<!-- Content-->
+<div class="login-rev">
+    <div class="wrapper">
+        <div class="wrapper-box-login shadow shadow-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-6 content-left">
+                        <!-- SLIDER LOGIN REGISTER -->
+                        <div class="wrapper-content-left slider-login">
+                            <!-- slide-1 -->
+                            <a href="#/" class="active" data-slide-index="0">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-1.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Connect</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Memudahkan kamu untuk terhubung dengan
+                                            berbagai peluang dan solusi kebutuhan bisnis.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- slide-2 -->
+                            <a href="#/" data-slide-index="1">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-2.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Collaborate</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Wadah untuk membangun networking & berkolaborasi 
+                                            demi mewujudkan ide-ide brilian bersama Conectizen lainnya.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- slide-3 -->
+                            <a href="#/" data-slide-index="2">
+                                <div class="image-login-register">
+                                    <img src="img/other-image/img-login-regist/image-login-3.png" alt="">
+                                    <div class="text-image-title">
+                                        <h3 class="span-color">Contribute</h3>
+                                        <p class="sub-title-text span-color-white text-slider">Bergabunglah bersama kami memajukan bangsa melalui
+                                            ekosistem ini, apakah kamu siap?.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-6 content-right">
+                        <div class="wrapper-content-right">
+                            <div class="col-12 image-title jcenter">
+                                <img class="image-login-content" src="img/icon/login-regis.png" alt="">
+                            </div>
+                            <h3 class="title-text-login span-color center mt-4">Kode OTP</h3>
+                            <p class="paragraph-text center mt-4">Masukkan kode OTP yang sudah dikirim melalui email<br> andhikasg@gmail.com. </p>
+                            <p class="sub-title-text-2 mt-32">Masukkan Kode OTP</p>
+                            <div class="col-12 login-otp mt-32">
+                                <form action="" class="form open-disabled" id="form-input">
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)'
+                                        maxlength=1>
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)'
+                                        maxlength=1>
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)'
+                                        maxlength=1>
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(4)'
+                                        maxlength=1>
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(5)'
+                                        maxlength=1>
+                                    <input class="otp otp-last" type="text" oninput='digitValidate(this)' onkeyup='tabChange(6)'
+                                        maxlength=1>
+                                    <div class="col-12 mt-32">
+                                        <p class="body-text-md span-color">Kirim ulang kode dalam
+                                            <span id="timerOtp" class="span-color"></span>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 button-otp-login mt-32">
+                                        <button type="submit" disabled="disabled" class="btn btn-full">Verifikasi</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-12 jcenter mt-32">
+                                <p class="body-text-xs">Email yang kamu masukkan salah?
+                                    <a href="#" class="body-text-sm span-color">Ganti Email</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Content-->
+<script>
+    let timerOn = true;
+    function timer(remaining) {
+        var m = Math.floor(remaining / 60);
+        var s = remaining % 60;
+
+        m = m < 10 ? '0' + m : m;
+        s = s < 10 ? '0' + s : s;
+        document.getElementById('timerOtp').innerHTML = m + ':' + s;
+        remaining -= 1;
+
+        if (remaining >= 0 && timerOn) {
+            setTimeout(function () {
+                timer(remaining);
+            }, 1000);
+            return;
+        }
+
+        if (!timerOn) {
+            // Do validate stuff here
+            return;
+        }
+
+        // Do timeout stuff here
+        const tXt = '<button id="timerOtp" class="span-color-red bold body-text-md">resend</button>';
+        document.getElementById('timerOtp').innerHTML = tXt;
+
+    }
+
+    timer(60);
+    // SLIDER
+
+    $('.slider-login').bxSlider({
+        auto: true,
+        slideWidth: 1216,
+    });
+    //BUTTON DISABLED
+    $(document).ready(function () {
+        $('.open-disabled input').keyup(function () {
+
+            var empty = false;
+            $('.open-disabled input').each(function () {
+                if ($(this).val().length == 0) {
+                    empty = true;
+                }
+            });
+
+            if (empty) {
+                $('.button-otp-login button').attr('disabled', 'disabled') && $(".btn").removeClass('btn-primary');
+            } else {
+                $('.button-otp-login button').attr('disabled', false) && $(".btn").addClass('btn-primary');
+            }
+        });
+    });
+</script>
+<!-- inject:footer -->
+<!-- endinject -->
